@@ -1,0 +1,20 @@
+Faça o código completo da classe com o método main() para que ela instancie cada 
+uma das classes citadas.
+
+R = logo em baixo são as classes instaciadas como a questão pedida.
+
+
+import br.edu.uffs.cc.pr.habilidades;
+import br.edu.uffs.cc.pr.entidades;
+import br.edu.uffs.cc.pr.racas;
+import java.lang.Scanner;
+
+classe Main{
+    public static void main(String[] args){
+        Animal a = new Animal();
+        Manifero m = new Manifero();
+        Morcego go = new Morcego();
+        Rastreador r = new Rastreador();
+    }
+
+}

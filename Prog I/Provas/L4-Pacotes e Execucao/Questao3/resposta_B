@@ -1,0 +1,11 @@
+b) Com base no método criado na questão a), o que aparecerá na saída padrão se o código 
+abaixo for executado com value tendo valor 1? Justifique.
+
+R = imprimir " LostSignalException "
+
+Por que no parametro diz que se o valor, for 1. Ele caiu no if aonde mostra que esse 1 é 
+igual ao outro 1 do if, e logo vai levantar e ir na classe do LostSignalException, e volta 
+imprimindo " LostSignalException "
+
+
+

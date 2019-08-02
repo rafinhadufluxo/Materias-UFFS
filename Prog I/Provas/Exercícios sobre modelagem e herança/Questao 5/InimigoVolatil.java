@@ -1,0 +1,4 @@
+class InimigoVolatil extends Inimigo{
+
+
+}

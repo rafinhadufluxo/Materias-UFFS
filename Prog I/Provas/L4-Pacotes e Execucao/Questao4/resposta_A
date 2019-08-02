@@ -1,0 +1,10 @@
+Como seria a estrutura de pastas e arquivos dentro desse diretório Proj para que o sistema de 
+pacotes funcionasse corretamente?
+
+R = cd/ Documentos/ Proj
+
+        logo depois 
+        <br.edu.uffs.cc.pr.raca.habilidade.entidades>  (exemplo para poder entender)
+
+        \javac *.java .\br\edu\uffs\cc\pr\*.java .\raca\habilidade\entidade\*.java
+        

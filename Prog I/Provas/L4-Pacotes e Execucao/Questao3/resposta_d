@@ -1,0 +1,10 @@
+d) Com base no método criado na questão a), o que aparecerá na saída padrão se o código abaixo 
+for executado com value tendo valor 90? Justifique.
+
+R = Não irá levanta  nenhuma exceção, e caira no Finally;
+
+imprimirá 
+        
+        System.out.println("closing connection");
+        return;
+        System.out.println("flushing log...")

@@ -1,0 +1,43 @@
+### Preencha as lacunas de acordo com os conceitos ou termos da programação orientada a objetos. 
+a. Uma _______________ serve como um modelo para a criação de objetos.
+b. O ato de alocar um espaço de memória para um objeto de uma determinada classe através do operador
+new chama-se ______________________________.
+c. Os membros de uma classe que definem seu estado/características são os ___________________.
+d. Os membros de uma classe que definem seu comportamento e/ou funcionalidades são os
+__________________________.
+e. O ____________________ é um método especial, público e sem retorno, executado sempre no momento da
+criação de um objeto.
+f. O mecanismo de ______________________ permite que uma classe reutilize as propriedades e/ou
+métodos já definidos em outra classe mais genérica. A classe que recebeu as características chama-se
+_____________________ e a classe que foi estendida chama-se__________________________.
+g. Um membro precedido do modificador __________________ é visível somente dentro da classe onde foi
+declarado. Um membro ___________________ é visível na própria classe, em suas subclasses ou outras
+classes do mesmo pacote. Já um membro ___________________ é acessível por qualquer outra classe de
+qualquer pacote.
+h. O conceito de ______________________________ diz que uma classe deve funcionar como uma caixa preta: não 
+precisamos conhecer os detalhes internos de sua implementação, apenas conhecer sua interface
+pública.
+i. Os atributos precedidos do modificador ________________ possuem um valor que é compartilhado
+por todas as instâncias de uma classe. Já os métodos que possuem o mesmo modificador não exigem a
+instanciação de um objeto, podendo ser chamados diretamente através do nome da classe.
+j. O operador ______________ permite referenciar membros da própria classe, sendo utilizado, por exemplo,
+para resolver ambiguidades entre nomes do membro e de parâmetros com o mesmo nome.
+k. Uma classe que possui a palavra-chave ____________________ na sua declaração não pode ser instanciada.
+l. Um atributo precedido da palavra ____________________ não pode ter seu valor alterado em tempo de
+execução. 
+
+**************************************************************************************************
+RESPOSTAS: 
+
+A - UML
+B - Instancia
+C - Atributo
+D - Metodos
+E - Construtor
+F - Herança,filha e pai
+G - privado,protected e public
+H - Encapsulamento
+I - Static
+J - this
+K - Abstract
+L - Final
