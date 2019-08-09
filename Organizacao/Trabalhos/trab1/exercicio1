@@ -1,12 +1,30 @@
-professor Caime
+ATIVIDADE
+
 1) Faça o que se pede:
 	i) Explique cada um dos termos seguintes com suas próprias palavras:
 	   a. Tradutor
-	   b. Interpretador
-	   c. Máquina virtual
+	   RESPOSTA: executa instruções em B executando sequências de instruções 
+	   equivalentes em A.
+	   b. Interpretador.
+	   RESPOSTA: o programa B inteiro primeiro é convertido para um A, o programa B é 
+	   desconsiderado e depois o novo A é carregado na memória do computador e executado. 
+	   Durante a execução, o programa A recém-gerado está sendo executado e está no controle 
+	   do computador.
+	   c. Máquina virtual.
+	   RESPOSTA: Cada máquina tem uma linguagem de máquina, consistindo em todas as instruções 
+	   que esta pode executar. Com efeito, uma máquina define uma linguagem. De modo semelhante, 
+	   uma linguagem define uma máquina a saber, aquela que pode executar todos os programas 
+	   escritos na linguagem.
 	ii) Apresente pelo menos 3 exemplos de linguagens ou ambientes que os utilizam
+	    RESPOSTA: Pascal, java e python
 
-2) Qual as vantagens e desvantagens da abstração do sistema computacional utilizando o organização multinível fazendo uso de máquinas virtuais?
+2) Qual as vantagens e desvantagens da abstração do sistema computacional utilizando o organização 
+multinível fazendo uso de máquinas virtuais?
+RESPOSTA: A vantagem é que os niveis de abstração para o programador e mais entendimeto de todo o 
+processo que será contruido, em outras palavras como será organizada. Entretanto, temos a desvatagem 
+que não tem controle total, e além que existe dependencias, tanto para performance interface grafica, 
+e exige a iterface ja definida.
 
 
-3) Você já ouviu o termo "cross-compiler"? Qual a relação do termo com os níveis de abstração 3, 4 e 5 apresetados no texto.
+3) Você já ouviu o termo "cross-compiler"? Qual a relação do termo com os níveis de abstração 3, 4 e 5 
+apresetados no texto.
