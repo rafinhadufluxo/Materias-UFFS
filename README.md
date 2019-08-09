@@ -1,3 +1,3 @@
 # Materias-UFFS
 
-É apenas um semestre que começa ..
+É apenas um semestre que começa .. 😎🤟
