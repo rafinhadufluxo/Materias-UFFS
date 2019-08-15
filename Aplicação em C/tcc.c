@@ -26,7 +26,7 @@ imprima "Fail! Entao eh nataaaaal!"     */
 void main ()
 {
 
-	int e, d;
+	int e, d; // mude as variavel aqui, e logo o uri aprova
 
 	scanf("%d %d", &e, &d);
 
