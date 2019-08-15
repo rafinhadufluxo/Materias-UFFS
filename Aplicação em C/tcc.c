@@ -26,20 +26,20 @@ imprima "Fail! Entao eh nataaaaal!"     */
 void main ()
 {
 
-	int n, m;
+	int e, d;
 
-	scanf("%d %d", &n, &m);
+	scanf("%d %d", &e, &d);
 
-	if(m - n >= 3)
+	if(d - e >= 3)
 		printf("Muito bem! Apresenta antes do Natal!\n");
-	else if (m - n < 0)
+	else if (d - e < 0)
 		printf("Eu odeio a professora!\n");
-	else if (m - n < 3)
+	else if (d - e < 3)
 	{
 
 		printf("Parece o trabalho do meu filho!\n");
-		m += 2;
-		if (m <= 24)
+		e += 2;
+		if (e <= 24)
 			printf("TCC Apresentado!\n");
 		else
 			printf("Fail! Entao eh nataaaaal!\n");
