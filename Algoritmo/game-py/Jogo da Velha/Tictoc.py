@@ -185,5 +185,3 @@ if __name__ == '__main__':
 	main()
 
 
-#o codigo está disponivel no meu Github professor, se estiver duvida sob ele pode me mandar um e-mail
-# pedindo explicaçao em alguma função que não intendeu !'''
