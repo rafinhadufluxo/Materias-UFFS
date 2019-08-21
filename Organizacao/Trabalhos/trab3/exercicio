@@ -1,0 +1,25 @@
+Considerando o conjunto de intruções simplificado que utiliza armazenamento baseado 
+em registrador de trabalho (acumulador):
+
+add op;  W <- W + (op)
+
+sub op;  W <- W i (op)
+
+div op;  W <- W / (op)
+
+mult op;  W <- W * (op)
+
+movmw op; W <- (op)
+
+movwm op; (op) <- W
+
+a) Aumente o conjunto de instruções acima para dar suporte a carga de constantes e 
+implemente a equação abaixo:
+
+   X = (A * 5) / B - 7
+
+b) Apresente o caminho de dados (datapath) que dá suporte as instruções acima 
+(inclusiva e que faz a carga de constantes).
+-------------------------------------------------------------------------------
+RESPOSTAS:
+
