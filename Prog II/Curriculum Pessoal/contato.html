@@ -1,62 +1,128 @@
 <!DOCTYPE <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-   
-    <meta charset="utf-8">
-        <title>CONTATO</title>
-        <style>
-            #oi {
-                display: block;
-                margin: auto;
-                }
-            .top {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width:600px;
-                height:180px;
-                margin:auto;
-
-                /* Destaque total, bem chamativo tlg    */
-               /* background-color:#ff0000;
-                font-family:Arial;
-                color:#fff; */
-            }
-
-
-        </style>
-             
-            
-</head>
-<body>
-    <h1> Coé Rafinha  </h1>
-    <p>Desenvolver Mobile | Producer music</p>
-    <nav>  
-        <ul>
-            <li><a href="index.html">Página inicial</a></li>
-            <li><a href="curriculum.html"> Curriculum </a></li>
-            <li><a href="tema.html">Temas de interesse</a></li>
-            <li><a href="projetos/portifolio.html"> Portifólio</a></li>
-            <li><a href= "contato.html"> Contato</a> </li>
-        </ul>
-    </nav>
-    <hr>
-    <!-- REDE SOCIAIS-->
-    <h2> Contato </h2>
-    <ul>
-        <li><a href="https://www.youtube.com/watch?v=aN7ImIjcn28" target="_blank">Youtube</a></li>
-        <li><a href="https://www.facebook.com/mazarafa7" target="_blank">Facebook</a> </li>
-        <li><a href="https://github.com/mazarafa"target="_blank"> github</a></li>
-    </ul>
-    <div>
-        <h3 class="top"> Chama no e-mail mazarafa7@gmail.com</h3>
-    </div>
-    <main>
-
-        <p>
-            <img  src="imagens/linda.jpeg" alt="Ilustração de um ninja segurando um notebook" id= "oi"/> 
-        </p>
-    </main>
     
+    <meta charset="utf-8">
+    <title>Site Profissional</title>
+    <style>
+        #centro {
+            display: block;
+            margin: auto;
+        }
+        .zuzu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:600px;
+            height:180px;
+            margin:auto;
+        }
+    </style>
+    
+    
+</head>
+
+
+<body>
+    <header>
+       
+        <h1> Coé Rafinha  </h1>
+        <p>Desenvolver Mobile | Producer music</p>
+      
+        <hr>
+    </header>
+
+<nav>  
+    <ul>
+        <li><a href="index.html">Página inicial</a></li>
+        <li><a href="curriculum.html"> Curriculum </a></li>
+        <li><a href="tema.html">Temas de interesse</a></li>
+        <li><a href="projetos/portifolio.html"> Portifólio</a></li>
+        <li><a href= "contato.html"> Contato</a> </li>
+    </ul>
+</nav>
+  
+    <main>
+        <h2>Entre em contato</h2>
+        <!-- formulario e nanana tchau-->
+        <form>
+            <div> 
+                <label for="nome"> Nome Completo: </label> 
+                <input type="text" name="nome" id= "nome" size = "50" maxlength="50" required autocomplete="off" autofocus>
+            </div>
+            
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="enderecoEmail" id="email" placeholder="name@exemplo.com">
+            </div>
+
+            <div>
+                <label for="fone">Telefone</label>
+                <input type="tel" name="telefone" id="fone" placeholder="(XX) XXXX - XXXX">
+                <!-- colocar tel o html5 reconhece que o tel, é tipo telefone  -->
+            </div>
+                <!-- FAZENDO A FAMOSA CAIXINHA PARÇA-->
+            <fieldset>
+                <legend>Perfil:</legend>
+                <label><input type="radio" name="perfil" value="e"> Estudante</label>
+                <label><input type="radio" name="perfil" value="p"> Profissional de TI</label>
+                <label><input type="radio" name="perfil" value="o" checked > Outros </label>
+                <!-- checked marca logo de cara, porém é oculto e pode muda na opção que queira parça-->
+            </fieldset>
+
+
+            <!--Caixa de elogios ou não parceiro-->
+            <div>
+                <label for="assunto"> Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="0">Selecione</option>
+                    <option value="1">Dúvidas</option>
+                    <option value="2">Sugestão</option>
+                    <option value="3">Críticas</option>
+                    <option value="4">Elogios</option>
+                </select>
+            </div>
+
+            <fieldset>
+                <legend>Horario preferencial para contato:</legend>
+                <label><input type="checkbox" name="name[]" value="manha" >  Manhã</label>
+                <label><input type="checkbox" name="name[]" value="tarde"> Tarde</label>
+                <label><input type="checkbox" name="name[]" value="noite"> Noite</label>
+                <!-- Colocando array que usuario deseja conversar com voce ta *name[]*, se ele 
+                quer algum horario tipo a noite, ficará a noite parça-->
+            </fieldset>
+
+            <div>
+                <label for="msg"> Mensagem:</label>
+                <textarea name="mensagem" id="msg">
+                </textarea>
+            </div>
+
+            <div>
+                <input type="submit" name="enviar" value="Enviar">
+                <input type="reset" name="limpar" value="Limpar campos">
+            </div>
+
+            <h2>Nossa localização</h2> 
+            <details>
+                <summary>Ver endereço completo</summary>
+                <p> Central Park, Nova Iorque, NY, EUA</p>
+            </details>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.0521000983213!2d-73.967549149602!3d40.78286874111346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589a018531e3%3A0xb9df1f7387a94119!2sCentral+Park!5e0!3m2!1spt-BR!2sbr!4v1566247814498!5m2!1spt-BR!2sbr" width="600" height="450" 
+            frameborder="0" style="border:0" allowfullscreen></iframe>
+            
+
+
+        </form>
+    </main>
+
+    <footer> 
+        <div>
+            <p class="zuzu">Direitos Reservados para todos &copy  </p>
+        </div>
+        
+    </footer>
+
 </body>
 </html>
+
