@@ -1,0 +1,35 @@
+body{
+    font-family: "Lucida Sans", sans-serif;   
+}
+
+header, footer{
+    background-color: #9933CC;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+aside{
+    background-color: lightgreen;
+    margin-top: 15px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    
+}
+
+nav li {
+   padding: 8px;
+   margin-bottom: 8px; 
+   background-color: #33B5E5;
+   color: #FFFFFF;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+nav li:hover{
+    background-color: #0099CC;
+}

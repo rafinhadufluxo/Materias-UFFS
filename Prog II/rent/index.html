@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Rent a Tool</title>
+</head>
+<body>
+	<!-- cabeçalho -->
+	<header>
+		<h1>Rent a Tool</h1>
+		<div id="menu-login">
+			<span id="login">Olá, visitante! (<a href="#">login</a>)</span>
+			<span id="carrinho"><a href="#">Meu carrinho <span id="numItensCarrinho">(2)</span><img src="img/cart.png" width="32" alt="carrinho de compras"></a></span>			
+		</div>
+		<nav class="menu-opcoes">    
+			<ul>
+				<li><a href="#">Minha Conta</a></li>
+				<li><a href="#">Programa de pontos</a></li>
+				<li><a href="#">Consumo solidário</a></li>
+				<li><a href="#">Quem somos</a></li>
+				<li><a href="#">Ajuda</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- fim cabeçalho -->
+
+	<!-- area central com 3 colunas -->
+	<div class="container">
+		<section class="col-1">
+			<section class="busca">
+				<form>
+					<input type="search" placeholder="Busca..." name="busca">
+					<button>OK</button>
+				</form>
+			</section>
+
+			<section class="menu-categorias">
+				<h2>Categorias</h2>
+				<nav>
+					<ul>
+						<li><a href="#">Marcenaria</a></li>
+						<li><a href="#">Jardinagem</a></li>
+						<li><a href="#">Limpeza</a></li>
+						<li><a href="#">Escritório</a></li>
+						<li><a href="#">Mecânica</a></li>						
+					</ul>
+				</nav>
+			</section>
+		</section>	
+
+		<section class="col-2">
+			<h2>Novidades</h2>
+
+			<!-- container de produtos -->
+			<div class="lista-produtos">
+				<!-- um produto -->
+                     <div class="produto">   
+                        <a href="#">
+                        <figure>
+                            <img src="img/produtos/serra.jpg" alt="Serra Elétrica">
+                            <figcaption>Serra Elétrica
+                            <br>De <span class="precoInicial">R$ 40,00</span> por <span class="precoFinal">R$ 20,00</span>
+                            </figcaption>                                                                     
+                        </figure>   
+                    	</a>
+                        <p class="noCarrinho">no carrinho!</p>                                            
+                    </div>
+				<!-- fim produto -->
+
+				<!-- um produto -->
+                     <div class="produto">    
+                     	<a href="#">                  
+                        <figure>                           
+                            <img src="img/produtos/escada.jpg" alt="Escada">
+                            <figcaption>Escada
+                            <br><span class="precoFinal">R$ 20,00</span>
+                            </figcaption>                          
+                        </figure>      
+                        </a>              
+                        <p class="rapida">compra rápida</p>
+                    </div>
+				<!-- fim produto -->
+
+				<!-- um produto -->
+                     <div class="produto"> 
+                     <a href="#">                     
+                        <figure>                            
+                            <img src="img/produtos/serra2.jpg" alt="Serra Elétrica 2">
+                            <figcaption>Serra elétrica 2
+                            <br><span class="precoFinal">R$ 20,00</span>
+                            </figcaption>                            							
+                        </figure> 
+                        </a>      
+                        <p class="rapida">compra rápida</p>             
+                    </div>
+				<!-- fim produto -->
+
+				<!-- um produto -->
+                     <div class="produto"> 
+                     <a href="#">                     
+                        <figure>
+                            <img src="img/produtos/furadeira.jpg" alt="Furadeira elétrica">
+                            <figcaption>Furadeira elétrica
+                            <br>De <span class="precoInicial">R$ 40,00</span> por <span class="precoFinal">R$ 20,00</span>
+                            </figcaption>							
+                        </figure>  
+                        </a> 
+                        <p class="rapida">compra rápida</p>
+                    </div>
+				<!-- fim produto -->
+
+				<!-- um produto -->
+                     <div class="produto">  
+                     <a href="#">                    
+                        <figure>
+                            <img src="img/produtos/serra3.jpg" alt="Serra elétrica 3">
+                            <figcaption>Serra elétrica 3
+                            <br><span class="precoFinal">R$ 20,00</span>
+                            </figcaption>				
+                        </figure>
+                    	</a>
+                        <p class="rapida">compra rápida</p>                    
+                    </div>
+				<!-- fim produto -->
+
+				<!-- um produto -->
+                     <div class="produto">     
+                     <a href="#">                 
+                        <figure>
+                            <img src="img/produtos/mangueira.jpg" alt="Mangueira">
+                            <figcaption>Mangueira
+                            <br><span class="precoFinal">R$ 20,00</span>
+                            </figcaption>				
+                        </figure> 
+                        </a>  
+                        <p class="rapida">compra rápida</p>                 
+                    </div>
+				<!-- fim produto -->				
+
+				<!-- um produto -->
+                     <div class="produto">
+                     <a href="#">                      
+                        <figure>
+                            <img src="img/produtos/cortador.jpg" alt="Cortador de grama">
+                            <figcaption>Cortador de grama
+                            <br>De <span class="precoInicial">R$ 40,00</span> por <span class="precoFinal">R$ 20,00</span>
+                            </figcaption>
+                        </figure>   
+                    	</a>
+                        <p class="rapida">compra rápida</p>                 
+                    </div>
+				<!-- fim produto -->
+
+				<!-- um produto -->
+                     <div class="produto">
+                     <a href="#">                      
+                        <figure>
+                            <img src="img/produtos/kit.jpg" alt="Kit de ferramentas">
+                            <figcaption>Kit de ferramentas
+                            <br>De <span class="precoInicial">R$ 40,00</span> por <span class="precoFinal">R$ 20,00</span>
+                            </figcaption>							
+                        </figure>   
+                        </a>     
+                        <p class="noCarrinho">no carrinho!</p>            
+                    </div>
+				<!-- fim produto -->				
+				
+				<!-- um produto -->
+                     <div class="produto">  
+                     <a href="#">                    
+                        <figure>
+                            <img src="img/produtos/lavadora.jpg" alt="Lavadora de alta pressão">
+                            <figcaption>Lavadora de alta pressão
+                            <br>De <span class="precoInicial">R$ 40,00</span> por <span class="precoFinal">R$ 20,00</span>
+                            </figcaption>						
+                        </figure>
+                        </a>    
+                        <p class="rapida">compra rápida</p>                
+                    </div>
+				<!-- fim produto -->	
+
+				<!-- um produto -->
+                     <div class="produto">  
+                     <a href="#">                    
+                        <figure>
+                            <img src="img/produtos/projetor.jpg" alt="Projetor multimídia">
+                            <figcaption>Projetor multimídia
+                            <br><span class="precoFinal">R$ 20,00</span>
+                            </figcaption>					
+                        </figure>   
+                    	</a>
+                        <p class="rapida">compra rápida</p>                 
+                    </div>
+				<!-- fim produto -->					
+				
+				<!-- um produto -->
+                     <div class="produto">  
+                     <a href="#">                    
+                        <figure>
+                            <img src="img/produtos/computador.jpg" alt="Computador">
+                            <figcaption>Computador
+                            <br><span class="precoFinal">R$ 20,00</span>
+                            </figcaption>
+                        </figure>
+                    	</a>
+                        <p class="rapida">compra rápida</p>                    
+                    </div>
+				<!-- fim produto -->	
+						
+				<!-- um produto -->
+                     <div class="produto"> 
+                     <a href="#">                     
+                        <figure>
+                            <img src="img/produtos/default.jpg" alt="Notebook">
+                            <figcaption>Notebook
+                            <br>De <span class="precoInicial">R$ 40,00</span> por <span class="precoFinal">R$ 20,00</span>
+                            </figcaption>
+                        </figure>     
+                    </a>
+                        <p class="rapida">compra rápida</p>
+                    </div>
+				<!-- fim produto -->	
+
+				<!-- um produto -->
+                     <div class="produto">  
+                     <a href="#">                    
+                        <figure>
+                            <img src="img/produtos/default.jpg" alt="Impressora laser">
+                            <figcaption>Impressora laser
+                            <br>De <span class="precoInicial">R$ 40,00</span> por <span class="precoFinal">R$ 20,00</span>
+                            </figcaption>
+                        </figure>  
+                    </a>
+                    <p class="rapida">compra rápida</p>                  
+                    </div>
+				<!-- fim produto -->				
+
+				<!-- adicione mais produtos --> 
+
+			</div>	<!-- fim lista produtos -->		
+		</section>
+		<aside class="col-3">
+			<h2>Mais pedidos</h2>
+			<!-- container de mais pedidos -->
+			<div class="lista-produtos">
+			
+				<!-- um produto -->
+                     <div class="produto">     
+                     <a href="#">                 
+                        <figure>
+                            <img src="img/produtos/projetor.jpg" alt="Projetor multimídia">
+                            <figcaption>Projetor multimídia
+                            <br><span class="precoFinal">R$ 20,00</span>
+                            </figcaption>
+                        </figure>        
+                        </a>            
+                    </div>
+				<!-- fim produto -->					
+				
+				<!-- um produto -->
+                     <div class="produto"> 
+                     <a href="#">                     
+                        <figure>
+                            <img src="img/produtos/computador.jpg" alt="Computador">
+                            <figcaption>Computador
+                            <br><span class="precoFinal">R$ 20,00</span>
+                            </figcaption>
+                        </figure>    
+                        </a>                
+                    </div>
+				<!-- fim produto -->	
+						
+				<!-- um produto -->
+                     <div class="produto">  
+                     <a href="#">                    
+                        <figure>
+                            <img src="img/produtos/default.jpg" alt="Notebook">
+                            <figcaption>Notebook
+                            <br>De <span class="precoInicial">R$ 40,00</span> por <span class="precoFinal">R$ 20,00</span>
+                            </figcaption>
+                        </figure>     
+                        </a>               
+                    </div>
+				<!-- fim produto -->	
+
+			</div>									
+			<!-- adicione mais produtos --> 
+		</aside>
+	</div>
+	<!-- fim area central -->
+	<footer><p>Rent a Tool - Chapecó/SC</p>
+		<ul class="social">
+			<li><a href="http://facebook.com/rentatool"><img src="img/facebook.png" alt="Facebook"></a></li>
+			<li><a href="http://twitter.com/rentatool"><img src="img/twitter.png" alt="Twitter"></a></li>
+		</ul>
+		<div id="ajuda">Precisa de ajuda? <span id="fechar">x</span></div>
+	</footer>
+	<!-- fim rodape -->
+</body>
+</html>
