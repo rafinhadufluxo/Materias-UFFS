@@ -13,6 +13,7 @@ aside{
     margin-top: 15px;
 }
 
+
 nav ul{
     list-style-type: none;
     display: flex;
@@ -33,3 +34,51 @@ nav li {
 nav li:hover{
     background-color: #0099CC;
 }
+*{
+    box-sizing: border-box ;
+    
+}
+h2{ /* palavra categoria    */
+    text-align: center;
+}
+.lista-produtos{
+    text-align: center;
+    
+}
+.produto {
+    display: inline-block;
+    text-align: center;
+    
+}
+.busca{ /* espaçamento para guia de busca   */
+    padding: 8px;
+
+}
+figure:hover{   /* colocando efeito nas imagens*/
+	box-shadow: 5px 5px 10px gray;
+	
+}
+/* arrumando coisas aaaa */
+.container{
+    background-color: #eeeeee;
+    overflow: hidden; /* arruma a questão do footer de contatos e nanana*/
+}
+
+/* ID   */
+#titulo {
+    position: relative;
+    top: 10px;
+}
+#menu-login{
+    bottom: 0;
+    text-align: right;
+    margin-bottom: 8px;
+}
+
+#lista-produtos{
+    bottom: 0;
+    text-align: right;
+    margin-bottom: 8px;
+
+}
+
