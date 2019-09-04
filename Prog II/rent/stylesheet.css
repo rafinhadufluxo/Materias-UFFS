@@ -54,6 +54,10 @@ h2{ /* palavra categoria    */
     padding: 8px;
 
 }
+figure{
+    /* display: inline-block; */
+    margin: 0;
+}
 figure:hover{   /* colocando efeito nas imagens*/
 	box-shadow: 5px 5px 10px gray;
 	
