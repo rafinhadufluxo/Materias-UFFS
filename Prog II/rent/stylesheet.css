@@ -13,7 +13,6 @@ aside{
     margin-top: 15px;
 }
 
-
 nav ul{
     list-style-type: none;
     display: flex;
@@ -34,22 +33,41 @@ nav li {
 nav li:hover{
     background-color: #0099CC;
 }
+
 *{
     box-sizing: border-box ;
     
 }
+.col-1, .col-2, .col-3 {
+    float: left; /* para layout flexbox, retirar esta linha */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
 h2{ /* palavra categoria    */
     text-align: center;
 }
+section p{
+    text-align: justify;
+    
+}
+p{
+    text-align: center;
+}
+
+/* produtos a venda */
 .lista-produtos{
     text-align: center;
     
 }
-.produto {
+.produto, .noCarrinho, .rapida {
     display: inline-block;
     text-align: center;
     
 }
+
 .busca{ /* espaçamento para guia de busca   */
     padding: 8px;
 
@@ -58,10 +76,21 @@ figure:hover{   /* colocando efeito nas imagens*/
 	box-shadow: 5px 5px 10px gray;
 	
 }
+
 /* arrumando coisas aaaa */
 .container{
     background-color: #eeeeee;
     overflow: hidden; /* arruma a questão do footer de contatos e nanana*/
+}
+
+.social {   /* rodape final */
+    width: 200px;
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+   
 }
 
 /* ID   */
@@ -82,3 +111,14 @@ figure:hover{   /* colocando efeito nas imagens*/
 
 }
 
+
+/*  PAGINA DE QUEM SOMOS    */
+#leitura{
+    width: 60%;
+    margin: auto;
+}
+
+#ajuda{
+    text-align: center;
+
+}
