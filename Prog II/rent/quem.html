@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<title>Rent a Tool</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+	<link rel="stylesheet" type="text/css" href="css/produto_carrinho.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> <!-- web font Lobster -->
 </head>
 <body>
 	<!-- cabeçalho -->
@@ -13,20 +16,39 @@
 		<div id="menu-login">
 			<span id="login">Olá, visitante! (<a href="login.html">login</a>)</span>
 			<span id="carrinho"><a href="#">Meu carrinho <span id="numItensCarrinho">(2)</span><img src="img/cart.png" width="32" alt="carrinho de compras"></a></span>			
-		</div>
+        </div>
+        <p id="exibe-menu">Menu</id></p>
 		<nav class="menu-opcoes">    
 			<ul>
+                <li><a href="index.html">Home</a></li>
 				<li><a href="#">Minha Conta</a></li>
 				<li><a href="#">Programa de pontos</a></li>
 				<li><a href="#">Consumo solidário</a></li>
-				<li><a href="#">Quem somos</a></li>
+				<li><a href="quem.html">Quem somos</a></li>
 				<li><a href="#">Ajuda</a></li>
 			</ul>
 		</nav>
-    </header>
-    <aside>
-        <!-- FALTA AQUI -->
-    </aside>
+	</header>
+	<!-- fim cabeçalho -->
+    <main>
+        <section id="leitura">
+       
+            <h2>Quem Somos </h2>
+            <p>     A Simples Consultoria é uma empresa focada no desenvolvimento de soluções de tecnologia da informação, tendo como diferencial a facilidade de uso de seus produtos.
+                Formada por especialistas de larga vivência nas áreas de gestão do conhecimento, arquitetura da informação, usabilidade e soluções web, sua equipe conta com profissionais especializados 
+                em Python, Zope  e Plone, reconhecidos pelas comunidades de programadores de todo o mundo.
+            </p>   
+            <p>Desde a especificação de um projeto até os ajustes finais de desempenho de um servidor, a Simples Consultoria possui expertise técnica e prática em todas as etapas necessárias 
+               para o desenvolvimento de projetos web para a sua empresa, de intranets a portais. Em seu portfólio, após cinco anos de experiência no uso de Plone, contabiliza-se mais de 100 
+               casos de sucesso na utilização da ferramenta, o que nos credencia como uma das maiores autoridades em Plone no Brasil e nos permite atuar em todas as fases de elaboração de um 
+               site ou intranet a partir desta tecnologia. Além de todo o conhecimento específico, nossos serviços de consultoria e soluções de gestão de conteúdo alinham os objetivos da sua 
+               organização com a facilidade de uso em ambiente web. Isso resulta em uma combinação sob medida para sua corporação, com os profissionais da sua empresa receberão a capacitação 
+               técnica necessária para gerenciar de maneira autônoma o projeto.
+            </p>
+            <br>
+            
+        </section>
+    </main>
     <footer><p>Rent a Tool - Chapecó/SC</p>
 		<ul class="social">
 			<li><a href="http://facebook.com/rentatool"><img src="img/facebook.png" alt="Facebook"></a></li>
@@ -35,5 +57,6 @@
 		<div id="ajuda">Precisa de ajuda? <span id="fechar">x</span></div>
 	</footer>
 	<!-- fim rodape -->
+	<script src="js/index.js"></script>
 </body>
 </html>

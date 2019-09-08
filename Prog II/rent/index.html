@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<title>Rent a Tool</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+	<link rel="stylesheet" type="text/css" href="css/produto_carrinho.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> <!-- web font Lobster -->
 </head>
 <body>
 	<!-- cabeçalho -->
@@ -13,9 +16,11 @@
 		<div id="menu-login">
 			<span id="login">Olá, visitante! (<a href="login.html">login</a>)</span>
 			<span id="carrinho"><a href="#">Meu carrinho <span id="numItensCarrinho">(2)</span><img src="img/cart.png" width="32" alt="carrinho de compras"></a></span>			
-		</div>
+        </div>
+        <p id="exibe-menu">Menu</id></p>
 		<nav class="menu-opcoes">    
 			<ul>
+                <li><a href="index.html">Home</a></li>
 				<li><a href="#">Minha Conta</a></li>
 				<li><a href="#">Programa de pontos</a></li>
 				<li><a href="#">Consumo solidário</a></li>
@@ -294,9 +299,11 @@
 		<ul class="social">
 			<li><a href="http://facebook.com/rentatool"><img src="img/facebook.png" alt="Facebook"></a></li>
 			<li><a href="http://twitter.com/rentatool"><img src="img/twitter.png" alt="Twitter"></a></li>
-		</ul>
+        </ul>
+        <br>
 		<div id="ajuda">Precisa de ajuda? <span id="fechar">x</span></div>
 	</footer>
-	<!-- fim rodape -->
+    <!-- fim rodape -->
+    <script src="js/index.js"></script>
 </body>
 </html>
