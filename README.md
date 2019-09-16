@@ -4,7 +4,7 @@ Bem vindo ao Meu Repositorio
 
 Seja um contribuidor parça !
 
-É do curso de Ciência da Computação? Calouro talvez?
+É do curso de Ciência da Computação da UFFS ? Calouro talvez?
 Temos dos grupos |telegram: https://t.me/ccuffs
 		 |wpp: https://chat.whatsapp.com/CPQrLeFht2XBiFfT9IBoci
      
