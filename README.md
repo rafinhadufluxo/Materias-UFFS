@@ -9,7 +9,8 @@ Seja um contribuidor parça !
 Temos dos grupos:
 
 
-telegram: https://t.me/ccuffs  ou  wpp: https://chat.whatsapp.com/CPQrLeFht2XBiFfT9IBoci
+--> telegram: https://t.me/ccuffs  
+--> wpp: https://chat.whatsapp.com/CPQrLeFht2XBiFfT9IBoci
      
      
 
