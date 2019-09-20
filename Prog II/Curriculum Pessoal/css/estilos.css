@@ -1,0 +1,120 @@
+/*  formatações gerais   */
+/* esse aqui é um site de cores --> https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF */
+body{
+    font-family: Arial, sans-serif,monospace;
+    margin: 0%; /* ou px*/
+    font-size: 1,2em;
+}
+
+header,footer{
+    background-color:rosybrown;
+}
+
+nav{
+    background-color: rosybrown;
+}
+
+header,footer,nav{
+    padding: 10px;
+}
+
+h1,footer{
+    color:  #000000;
+}
+h2{
+    color:#000000;
+
+}
+
+head p{
+    color: #0000;
+}
+
+main{
+    background-color: rosybrown;;
+}
+
+th,table,td{
+    border: 1px rosybrown;
+    border-collapse: collapse; /* transforma em uma borda so */
+}
+th{
+    background-color: blueviolet;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: tomato;
+}
+
+tr:nth-child(odd){
+    background-color: #cccccc;
+}
+
+}
+/* links    */
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: blueviolet;
+}
+
+a:active{
+    color: lightblue;
+}
+
+a:hover{
+    color: #143055;
+    text-shadow: 3px 3px 5px white; *sombra horizontal, vertical, distancia e cor.
+}
+
+/*menu*/
+
+nav li{
+    display: inline;
+    margin-right:20px;
+
+}
+
+/*portifolio */
+
+figure img{
+    width: 300;
+} 
+
+ figure{
+    /* pra quem mais figurar de lado parça*/
+    float: left;
+}  
+
+#gostou{
+    clear: left;
+}
+
+
+/* efeito de css AAAAAAAAA ADOROOO  */ 
+
+figure:hover{
+    box-shadow: 5px 5px 10px gray;
+    transform: scale(1.2) rotate(-5deg);
+    transition: 0.5s;
+}
+
+/*  formulario ( SERIA O CAMPO DE PESQUISA PARÇA  */
+
+input,select,textarea{
+    border: 2px solid #143055;
+    border-radius: 10px;
+    padding: 5px 10px;  /* 5 no top e button; 10 no left e rigth */
+    margin: 10px 0;
+    font-family: monospace;
+}
+
+input:focus, select:focus, textarea: :focus{
+    border: 2px solid #ff0000;
+    background-color: #EEE;
+    font-weigt: bolder;
+}

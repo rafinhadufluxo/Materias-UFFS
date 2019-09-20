@@ -15,6 +15,8 @@
     font-family: "Lucida Sans", sans-serif;
     margin: 0;
   }
+
+  
   
   
   /******************************************************************* layout colunas */
@@ -36,6 +38,10 @@
    /* display: flex;
     flex-direction: column;
     flex-wrap: wrap;*/
+  }
+
+  main{
+    padding: 15px;
   }
   
   
@@ -279,6 +285,17 @@
     margin-right: auto;
 
   }
+  /********************************************************************************* Login  **/
+  #logando p{
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+  
+
    
   /********************************************************************************* queries **/
   @media only screen and (min-width: 600px) {

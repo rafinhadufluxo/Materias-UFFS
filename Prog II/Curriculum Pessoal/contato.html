@@ -1,13 +1,20 @@
 <!DOCTYPE <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    
+
+    <title>Contato</title>
     <meta charset="utf-8">
-    <title>Site Profissional</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    
     <style>
-        #centro {
-            display: block;
-            margin: auto;
+        .area
+        {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        
         }
         .zuzu {
             display: flex;
@@ -93,7 +100,7 @@
             </fieldset>
 
             <div>
-                <label for="msg"> Mensagem:</label>
+                <label for="msg"> Mensagem:</label><br>
                 <textarea name="mensagem" id="msg">
                 </textarea>
             </div>
@@ -103,12 +110,13 @@
                 <input type="reset" name="limpar" value="Limpar campos">
             </div>
 
+            <!-- colocando localizando aonde voce está-->
             <h2>Nossa localização</h2> 
-            <details>
+            <details >
                 <summary>Ver endereço completo</summary>
                 <p> Central Park, Nova Iorque, NY, EUA</p>
             </details>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.0521000983213!2d-73.967549149602!3d40.78286874111346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589a018531e3%3A0xb9df1f7387a94119!2sCentral+Park!5e0!3m2!1spt-BR!2sbr!4v1566247814498!5m2!1spt-BR!2sbr" width="600" height="450" 
+            <iframe class="area" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.0521000983213!2d-73.967549149602!3d40.78286874111346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589a018531e3%3A0xb9df1f7387a94119!2sCentral+Park!5e0!3m2!1spt-BR!2sbr!4v1566247814498!5m2!1spt-BR!2sbr" width="600" height="450" 
             frameborder="0" style="border:0" allowfullscreen></iframe>
             
 
