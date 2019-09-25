@@ -1,4 +1,5 @@
-1-
+#Acadêmicas: Nubia Pontel e Rafaelle Arruda
+#1- QUESTAO
 
 
 .data
@@ -31,7 +32,7 @@ fim:
 	ret
 
 
-2-
+#2- QUESTAO
 
 .data
 	vetor:
@@ -85,7 +86,7 @@ fim:
 
 
 
-3-
+#3- QUESTAO
 
 .data
 	vetor: 
