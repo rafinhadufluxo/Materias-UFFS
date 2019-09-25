@@ -41,7 +41,7 @@ p {
   
   /*********************************************************************** header*/
 header, footer {
-    background-color: palevioletred;
+    background-color: green;
     color: #ffffff;               
     padding: 10px;
     position: relative;
@@ -132,17 +132,26 @@ footer {
 
   
   /*************************************************** div ajuda */
-  
+#total{
+    font-weight: bold;
+    color: red;
+}
+.Valor-Total{
+    text-align: left;
+    color: black;
+}
+
 #duvida{
     width: 200px;
     height: 100px;
-    background-color: lightgreen;
+    background-color: aqua;
     color: black;
     padding: 5px;
     position: fixed;
     bottom: 0px;
     right: 200px;
     display: none;
+    position: fixed;
 }
   
 #duvida #fechar{
@@ -150,7 +159,7 @@ footer {
     top: 0;
     right: 0;
     margin: 0;
-    background-color: #ccc;
+    background-color: red;
     border: 1px solid black;
     padding: 2px 5px;
     cursor: pointer;
