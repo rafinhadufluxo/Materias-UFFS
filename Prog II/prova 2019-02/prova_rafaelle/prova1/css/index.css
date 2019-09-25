@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;    
+}
+  
+a {
+    text-decoration: none; /* todos os links sem sublinhado */
+}
+  
+body {
+    font-family: "Lucida Sans", sans-serif;
+    margin: 0;
+}
+  
+  
+  /******************************************************************* layout colunas */
+.col-1, .col-2, .col-3 {
+    float: left; /* para layout flexbox, retirar esta linha */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.col-2 {
+    width: 80%;
+}
+  
+footer{
+    clear: left; /* para layout flexbox, retirar esta linha */
+    text-align: center;
+}
+footer p {
+    text-align: center;
+}
+  
+.container {
+    
+    /*background-color: #D6E9FE;*/
+    overflow: hidden; 
+}
+  
+  
+  /*********************************************************************** header*/
+header, footer {
+    background-color: palevioletred;
+    color: #ffffff;               
+    padding: 10px;
+    position: relative;
+}
+  
+header a:link, header a:visited, footer a:link, footer a:visited {
+    color: #fff;
+}
+  
+header h1 {
+    position: relative;
+    padding-left: 20px;
+    text-shadow: 2px 0 2px #000; 
+    color: #eee; 
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+}
+#imagem1{
+    float: left;
+    width: 40%;
+    max-width: 340px;
+    min-width: 250px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+
+}
+#imagem2{
+    float: right;
+    width: 40%;
+    max-width: 340px;
+    min-width: 250px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+  
+  /******************************************************************** menu superior */
+.menu-opcoes {
+    display: none; /* aqui  */
+}
+  
+.menu-opcoes ul {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+  
+.menu-opcoes ul li {
+    margin-right: 10px;
+    list-style-type: none;
+}
+  
+.menu-opcoes a:hover {
+    text-shadow: 2px 2px 2px #000;
+    border-bottom: 2px solid white;
+}
+  
+.menu-opcoes a:active {
+    color: #867DC6;
+}
+  
+  /************************************************************************* titulos das secoes */
+h2 {
+    padding: 10px 0 0px 10px; 
+    color: #333;
+    font-size: 1.3em;
+}
+  
+  /***************************************************************************** menu categorias */
+.menu-categorias {
+    background-color: #F5CF8E; 
+    border-radius: 10px;    
+}
+  
+.menu-categorias ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+  
+.menu-categorias li {
+    text-transform: uppercase;
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+  
+.menu-categorias li:hover {
+    background-color: #ddd;
+}
+  
+.menu-categorias a {
+    color: #333333;
+    text-decoration: none;
+} 
+  
+
+  
+
+  
+  
+  /************************************************************************** mais pedidos */
+aside {
+   /* background: rgb(200, 191, 231);*/
+    border-radius: 10px;  
+} 
+  
+
+  
+  /************************************************************************ redes sociais */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.social {
+    padding: 0;
+}
+  
+.social li{
+    display: inline;
+}
+  
+  /*************************************************** div ajuda */
+  
+#ajuda{
+    width: 200px;
+    height: 100px;
+    background-color: lightgreen;
+    color: black;
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
+    right: 200px;
+    display: none;
+}
+  
+#ajuda #fechar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    background-color: #ccc;
+    border: 1px solid black;
+    padding: 2px 5px;
+    cursor: pointer;
+  }
+  
+  /********************************************************************************* queries **/
+@media only screen and (min-width: 600px) {
+    /* para tablets: */
+      .col-1 {width: 30%;}
+      .col-2 {width: 70%;}
+      .col-3 {width: 100%;} 
+  
+      /* para layout flexbox, substituir as 3 linhas acima pelas 6 abaixo */
+      /*.col-1 {flex: 30%;}
+      .col-2 {flex: 70%;}
+      .col-3 {flex: 100%;}
+      .container{
+        flex-direction: row;
+      }*/      
+  
+    footer {
+        flex-direction: row;
+    }      
+}
+  
+@media only screen and (min-width: 1000px) {
+      /* para desktop: */
+    .col-1 {width: 20%;}
+    .col-2 {width: 60%;}
+    .col-3 {width: 20%;}
+  
+      /* para layout flexbox, substituir as 3 linhas acima pelas 3 abaixo */
+     /* .col-1 {flex: 20%;}
+      .col-2 {flex: 60%;}
+      .col-3 {flex: 20%;}*/
+    .exibi-menu{
+        display: none;
+    }
+    .menu-opcoes {
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        display: initial;
+
+    }   
+          
+    .menu-opcoes ul li{
+        display: inline; /* menu superior se torna horizontal */
+    }   
+  
+    #ajuda{
+        display: initial;
+    }
+  }  
+  

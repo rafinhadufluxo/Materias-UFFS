@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Pizzaria Rafis</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	
+</head>
+<body>
+	<!-- cabeçalho -->
+	<header>
+        <h1>Pizzaria Rafis</h1>
+        <p id="exibe-menu">Menu</id></p>
+        <nav class="menu-opcoes">    
+            <ul>
+                <li><a href="index.html">Pagina Inicial</a></li>
+                <li><a href="#">Pedidos</a></li>
+                <li><a href="#">Contrate-nos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- fim cabeçalho -->
+    <div class="container">
+        <section class="col-1">
+            <img src="aem.jpg" alt="cozinheira" id="imagem1">
+        </section>
+       
+
+            <!-- area central com 3 colunas -->
+        <section class="col-2">
+            <h2>Identificação</h2>
+            <div>
+                <form action="" method="post" id="form-contato">
+                    <fieldset>
+                        <legend><strong>Identificação</strong></legend>
+                        <div class="form-item">
+                            <label for="nome" class="rotulo" > Nome Completo </label>
+                            <input type="text" id="nome" name="nome" size="50">
+                        </div>
+                        <div class="form-item">
+                            <label for="e-mail" class="rotulo"> E-mail: </label>
+                            <input type="text" id="e-mail" name="e-mail" placeholder="fulano@gmail.com" size="50">
+                        </div>
+                        <div class="form-item">
+                            <label for="telefone" class="rotulo"> E-mail: </label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(065) 01234-6789">
+                        </div>
+                    </fieldset>
+                </form>
+                <br>
+                <!-- FOLHA DE PEDIDO -->
+                <form action="" method="post" id="form-pedido">
+                    <fieldset>
+                        <legend><strong>Pedido</strong></legend>
+                        <div class="form-item">
+                            <label class="rotulo">Escolha do tamanho da pizza</label><br><br>
+                            <label><input type="radio" name="pizza" value="p" id="pizzaP">Pequena R$ 30,00</label>
+                            <label><input type="radio" name="pizza" value="m" id="pizzaM">Média R$ 40,00</label>
+                            <label><input type= "radio" name= "pizza" value="g" id = "pizzaG"> Grande R$ 60,00</label>
+                            <label><input type= "radio" name= "pizza" value="g" id = "pizzaF"> Famila R$ 80,00</label>
+                            <span class="msg-erro" id="msg-perfil"></span>
+                        </div>
+                        <br>
+                        <div class="form-item">
+                        <label for="sabores" class="rotulo">Sabor:</label>
+                            <select name="sabores" id="sabores">
+                                <option value="">Selecione o sabor</option>
+                                <option>Portuguesa</option>
+                                <option>Quatro Queijo</option>
+                                <option>Frango</option>
+                            </select>
+                            <span class="msg-erro" id="msg-sabores"></span>
+                        </div>
+                        <br>
+                        <div class="form-item">
+                            <label for="Adicional" class="rotulo">Adicional:</label><br>
+                            <br>
+                            <label><input type="checkbox" id="borda" name="borda">Borda (+ R$ 5,00)</label>
+                            <label><input type="checkbox" id="refrigerante" name="refrigerante"> Refrigerante 2L (+ R$ 7,00)</label>
+                            <span class="msg-erro" id="msg-concordo"></span>
+                        </div>
+                        <br>
+                        <div class="form-item-data">
+                            <label class="rotulo">Retirada:</label><br><br>
+                            <label for="data" class="rotulo" > Data </label>
+                            <label for="hora" class="rotulo"> Horario:</label>
+                            <input type="date" id="data" name="data">
+                            <input type="time" id="hora" name="hora">
+                        </div>
+                        <br>
+                        <div class="form-item-observacao">
+                            <label>Observações:<br>
+                                <textarea name="obs" rows="5" cols="30">
+                                </textarea>
+                            </label>
+                        </div>
+                        
+                    </fieldset>
+                        <!-- fim da folha de pedido-->
+
+
+                    <fieldset> 
+                        <legend><strong>Valor Total</strong></legend>
+                        <div id="total class="Valor-Total">
+                            <span id="total" class="Valor-Total"> TOTAL DE R$ 30,00</span>
+                        </div>
+                        <div id= "confirmaPedido" class="confirmaPedido"><br>
+                            <label><input type="submit" id= "botao" value="Confirma Pedido" ></label>
+                            <label><input type="submit" id= "botao" value="Limpar campos"></label>
+                        </div>
+                    </fieldset>    
+                </form>
+            </div>    
+            
+        </section>
+        <aside class="col-3">
+            <img src="aem.jpg" alt="cozinheira" id="imagem2">
+
+        </aside>
+       
+    </div>
+    <footer>
+        <div class="fimFooter">
+            <p> Direitos reservados &copy;</p>
+        </div>
+    </footer>
+</body>
+</html>
