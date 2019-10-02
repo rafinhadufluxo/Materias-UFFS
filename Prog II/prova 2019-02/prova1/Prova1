@@ -1,0 +1,72 @@
+Resumo
+
+Você abriu uma pizzaria e precisa desenvolver uma página para receber pedidos dos clientes. Para simplificar, consideraremos apenas 1 pizza por pedido.
+São 4 tamanhos de pizza: Pequena (R$ 30,00), Média (R$ 40,00), Grande (R$ 60,00) e Família (R$ 80,00). Para as pizzas Pequena e Média, é possível escolher 
+2 opções de sabores. Já para a Grande e Família, um terceiro sabor pode ser opcionalmente acrescentado.
+
+Se o cliente optar por uma pizza com borda, há um adicional de R$ 5,00. Já para acrescentar um refrigerante ao pedido, o adicional é de R$ 7,00 (ambos podem 
+ser adicionados).
+
+Ao alterar o tamanho da pizza e marcar/desmarcar as opções adicionais, o valor total do pedido deve ser atualizado. Antes de enviar o pedido, a página deve 
+verificar se foram escolhidos os sabores 1 e 2.
+
+Abaixo, o detalhamento dos requisitos.
+
+ 
+
+Parte 1 - HTML (Peso 4,0)
+
+Crie uma página HTML contendo:
+1-Título da janela com o nome da sua pizzaria (invente!);
+2-Meta-tags charset, keywords e description;
+3-Uma área de cabeçalho (header) com o nome de sua pizzaria;
+4-Abaixo do header, uma área <nav> com links "página inicial", "pedidos" e "contate-nos" (não é necessário criar outras páginas; os links devem apontar para a própria página). Os itens devem fazer parte de uma lista não ordenada;
+5-Uma área principal (main) contendo um formulário (descrição abaixo);
+6-Uma área complementar (aside), contendo um slogan ou mensagem promocional (invente!), acompanhado da imagem que está ao final desta página;
+7-Uma div com id="duvidas" contendo o texto "Em caso de dúvidas, entre em contato pelo número 0800-0000".
+8-Uma área de rodapé (footer), contendo informações de contato da empresa.
+
+	O formulário para recebimento de pedidos deve conter os seguintes campos:
+
+1-<fieldset> com <legend> "Identificação do Cliente", contendo os campos:
+Nome (tamanho de 50 caracteres, obrigatório e recebe o foco automaticamente);
+E-mail (tamanho de 50 caracteres com placeholder "fulano@domínio");
+Telefone: tipo tel, obrigatório e com placeholder (xx)xxxxx-xxxx.
+2- <fieldset> com <legend> "Pedido", contendo os campos:
+a)Tamanho: 4 campos radio para escolha do tamanho da pizza (conforme opções descritas no resumo). Cada label deve informar o tamanho da pizza e o valor. A opção "Pequena" deve vir marcada por default. Lembre-se que cada radio deve possuir um id e um value diferente;
+b)Sabores: três campos select para escolha dos sabores 1, 2 e 3 (este último deve estar desabilitado por default). Cada campo deve ter uma primeira opção genérica (do tipo "Selecione um sabor") e mais algumas com sabores à sua escolha;
+c) Adicionais: dois campos checkbox para que o cliente assinale se deseja acrescentar as opções "Borda (+ R$ 5,00)" e "Refrigerante 2L (+ R$ 7,00)";
+d)Data e hora desejada para retirada: campo tipo date acompanhado de um campo tipo time (ou um datetime);
+e)Observações: textarea com 5 linhas e 30 colunas.
+3-<fieldset> com legend "Valor Total", contendo um elemento div com id="total" e conteúdo "30.00" (valor da pizza pequena, que é a default);
+4-Botões "Confirmar pedido" e "Limpar campos".
+
+**Observações:**
+
+* Colocar labels em todos os campos;
+* O código deve validar corretamente no validador de HTML do W3C (sem erros; warnings sobre compatibilidade podem estar presentes).
+ 
+
+Parte 2 - CSS (Peso 4,0)
+
+Crie um arquivo CSS externo para estilizar os elementos da página HTML.
+
+1- A área main deve ocupar 80% da largura da tela. A área aside deve aparecer ao seu lado, ocupando os 20% restantes (não esqueça de definir globalmente as margens como zero e o box-sizing como border-box). Os demais elementos estruturantes (header, nav e footer) devem permanecer ocupando a largura total;
+2-Estilize cada área com uma cor de fundo à sua escolha;
+3-A figura dentro da área aside deve ter um tamanho em % e receber um deslocamento (position) de 20px para baixo de sua posição original;
+4-A div #duvidas deve ter plano de fundo colorido, largura de 200px e posição fixa na área inferior da janela;
+5-Os itens do menu devem aparecer lado a lado (dica: trabalhar com a propriedade display) e ter um preenchimento nas laterais de 10px;
+6-Os links não devem ter efeito sublinhado e seu plano de fundo deve ficar mais escuro ao passar o mouse sobre eles;
+7-Estilize os campos do formulário com bordas e cor de fundo à sua escolha. A cor de fundo deve mudar quando o elemento está com o foco;
+8-Estilize as fontes ao seu gosto;
+9-A div #total deve conter texto em negrito, em tamanho maior e com uma cor que se destaque.
+ 
+
+Parte 3 - Javascript (Peso 2,0)
+
+1-Crie uma function que calcula o total do pedido, verificando qual tamanho e quais adicionais estão selecionados. Chame esta function sempre que o tamanho ou os adicionais forem alterados.
+Dica 1: condição para verificar se um checkbox/radio está marcado: if (blablabla.checked == true) ou if (blablabla.checked).
+Dica 2: lembre de utilizar o console das ferramentas do desenvolvedor para verificar existência de erros de Javascript.
+2-Ao alterar a opção de tamanho, se for selecionada Grande ou Família, habilitar o campo "Sabor 3".
+Dica 3: para habilitar um campo: blablabla.disabled = true;
+3-Ao submeter o formulário, verificar se os sabores 1 e 2 foram escolhidos (o 3 é opcional). Em caso negativo, abrir um alert avisando o usuário e retornar falso.
