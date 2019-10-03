@@ -7,12 +7,11 @@ São 4 tamanhos de pizza: Pequena (R$ 30,00), Média (R$ 40,00), Grande (R$ 60,0
 Se o cliente optar por uma pizza com borda, há um adicional de R$ 5,00. Já para acrescentar um refrigerante ao pedido, o adicional é de R$ 7,00 (ambos podem 
 ser adicionados).
 
-Ao alterar o tamanho da pizza e marcar/desmarcar as opções adicionais, o valor total do pedido deve ser atualizado. Antes de enviar o pedido, a página deve 
-verificar se foram escolhidos os sabores 1 e 2.
+Ao alterar o tamanho da pizza e marcar/desmarcar as opções adicionais, o valor total do pedido deve ser atualizado. Antes de enviar o pedido, a página deve verificar se foram escolhidos os sabores 1 e 2.
 
 Abaixo, o detalhamento dos requisitos.
 
- 
+******************************************************************************************************************************************** 
 
 Parte 1 - HTML (Peso 4,0)
 
@@ -26,6 +25,7 @@ Crie uma página HTML contendo:
 7-Uma div com id="duvidas" contendo o texto "Em caso de dúvidas, entre em contato pelo número 0800-0000".
 8-Uma área de rodapé (footer), contendo informações de contato da empresa.
 
+
 	O formulário para recebimento de pedidos deve conter os seguintes campos:
 
 1-<fieldset> com <legend> "Identificação do Cliente", contendo os campos:
@@ -33,11 +33,11 @@ Nome (tamanho de 50 caracteres, obrigatório e recebe o foco automaticamente);
 E-mail (tamanho de 50 caracteres com placeholder "fulano@domínio");
 Telefone: tipo tel, obrigatório e com placeholder (xx)xxxxx-xxxx.
 2- <fieldset> com <legend> "Pedido", contendo os campos:
-a)Tamanho: 4 campos radio para escolha do tamanho da pizza (conforme opções descritas no resumo). Cada label deve informar o tamanho da pizza e o valor. A opção "Pequena" deve vir marcada por default. Lembre-se que cada radio deve possuir um id e um value diferente;
-b)Sabores: três campos select para escolha dos sabores 1, 2 e 3 (este último deve estar desabilitado por default). Cada campo deve ter uma primeira opção genérica (do tipo "Selecione um sabor") e mais algumas com sabores à sua escolha;
-c) Adicionais: dois campos checkbox para que o cliente assinale se deseja acrescentar as opções "Borda (+ R$ 5,00)" e "Refrigerante 2L (+ R$ 7,00)";
-d)Data e hora desejada para retirada: campo tipo date acompanhado de um campo tipo time (ou um datetime);
-e)Observações: textarea com 5 linhas e 30 colunas.
+	a)Tamanho: 4 campos radio para escolha do tamanho da pizza (conforme opções descritas no resumo). Cada label deve informar o tamanho 		da pizza e o valor. A opção "Pequena" deve vir marcada por default. Lembre-se que cada radio deve possuir um id e um value diferente;
+	b)Sabores: três campos select para escolha dos sabores 1, 2 e 3 (este último deve estar desabilitado por default). Cada campo deve ter 		uma primeira opção genérica (do tipo "Selecione um sabor") e mais algumas com sabores à sua escolha;
+	c) Adicionais: dois campos checkbox para que o cliente assinale se deseja acrescentar as opções "Borda (+ R$ 5,00)" e "Refrigerante 2L 		(+ R$ 7,00)";
+	d)Data e hora desejada para retirada: campo tipo date acompanhado de um campo tipo time (ou um datetime);
+	e)Observações: textarea com 5 linhas e 30 colunas.
 3-<fieldset> com legend "Valor Total", contendo um elemento div com id="total" e conteúdo "30.00" (valor da pizza pequena, que é a default);
 4-Botões "Confirmar pedido" e "Limpar campos".
 
