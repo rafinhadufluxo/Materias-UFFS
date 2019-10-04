@@ -1,0 +1,12 @@
+~ Descrição ~
+Programa que simula uma máquina de turing em monofita sobre um alfabeto binário com 6 estados distintos. Em caso de aceitação ou rejeição, o programa finaliza com um caractere aleatório na fita.
+
+1) Pode ser compilado de duas maneiras:
+"g++ main.cc -o $EXECUTAVEL -std=c++11"
+"g++ main.cc -std=c++11"
+
+2) Execução
+./$EXECUTÁVEL < teste.in > teste.out
+
+3) Observações:
+O programa entra em loop inifinito caso a entrada não obedeça o alfabeto dado, mas aí deixa de ser uma máquina de turing, ué.
