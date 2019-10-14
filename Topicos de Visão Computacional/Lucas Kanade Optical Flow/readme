@@ -1,0 +1,7 @@
+Tenha certeza de possuir o opencv2/numpy instalados para executar, e o arquivo imnew.mp4 na pasta.
+Será criado um novo arquivo de video durante a execução.
+
+Testes com diferentes parametros foram salvos em https://drive.google.com/drive/folders/18EG9ziPfDoDQJudJ8ELlAhSYpxcXZ0kr?usp=sharing, tendo como nome o numero de
+itens detectados e o tamanho da janela para cada um
+
+Código adaptado de https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html
