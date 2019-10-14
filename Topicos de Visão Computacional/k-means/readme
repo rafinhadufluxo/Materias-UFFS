@@ -1,0 +1,4 @@
+Tenha certeza de possuir o opencv2/numpy instalados para executar, o arquivo img.jpg ou img2.jpg na pasta e a pasta images criada.
+A execucao deste programa resultara num arquivo chamado Resultado3-K-(numero do K usado).jpg, que pode ser encontrado na pasta images, sendo o mesmo exibido no programa
+em execucao.
+
