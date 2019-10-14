@@ -1,0 +1,3 @@
+Tenha certeza de possuir o opencv2/numpy instalados para executar e o arquivo SilhouetteJogger.mp4 RENOMEADO COMO 'vid.mp4' na pasta (por algum problema no opencv ele nao conseguia abrir o arquivo com o nome original).
+A execucao deste programa resultara num arquivo chamado outColorido.avi, que pode ser reproduzido no VLC e é a mesma saida do programa em execucao.
+
