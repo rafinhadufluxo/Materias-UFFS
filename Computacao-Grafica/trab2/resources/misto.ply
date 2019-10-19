@@ -1,0 +1,25 @@
+ply
+format ascii 1.0
+comment poligonos maiores
+obj_info malha 2D
+element vertex 9
+property float x
+property float y
+property float z
+element face 5
+property list uchar int vertex_indices
+end_header
+0.25 -0.1 0 
+1 0 0 
+1 1.2 0 
+0 1.1 0 
+-1.5 1 0 
+-1 0 0 
+-1 -1 0 
+0 -1 0
+0.8 -1 0
+3 0 1 2
+5 0 2 3 5 7
+3 3 4 5
+3 5 6 7
+4 0 7 8 1

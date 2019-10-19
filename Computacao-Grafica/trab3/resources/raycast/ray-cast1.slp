@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ShaderLab>
+	<shaders>
+		<vertex>ray-cast1.vert</vertex>
+		<fragment>ray-cast1.frag</fragment>
+	</shaders>
+	<model>
+		<id>4</id>
+	</model>
+</ShaderLab>

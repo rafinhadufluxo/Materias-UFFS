@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ShaderLab>
+	<shaders>
+		<vertex>phong.vert</vertex>
+		<fragment>phong.frag</fragment>
+	</shaders>
+	<model>
+		<id>0</id>
+	</model>
+</ShaderLab>

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Redo.png</file>
+        <file>Undo.png</file>
+        <file>mirror.jpg</file>
+        <file>reflection.jpg</file>
+        <file>xRay.png</file>
+        <file>greyScale.jpg</file>
+        <file>sepia.jpg</file>
+    </qresource>
+</RCC>

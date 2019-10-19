@@ -1,0 +1,26 @@
+ply
+format ascii 1.0
+comment hexagono
+obj_info malha2D
+element vertex 7
+property float x
+property float y
+property float z
+element face 6
+property list uchar int vertex_indices
+end_header
+ 
+0 0 0 
+1 0 0 
+0.5 0.866 0
+-0.5 0.866 0
+-1 0 0 
+-0.5 -0.866 0
+0.5 -0.866 0
+       
+3 0 1 2
+3 0 2 3
+3 0 3 4
+3 0 4 5
+3 0 5 6
+3 0 6 1

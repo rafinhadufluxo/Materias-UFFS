@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/98/trunk/resources/ShderDesigner
+END
+crash.vert
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/crash.vert
+END
+mandel.vert
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/mandel.vert
+END
+texture.vert
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/89/trunk/resources/ShderDesigner/texture.vert
+END
+bumpslc.frag
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/bumpslc.frag
+END
+vp0.vert
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/vp0.vert
+END
+bumpslc.vert
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/bumpslc.vert
+END
+wood.frag
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/wood.frag
+END
+wood.vert
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/wood.vert
+END
+simple1.vert
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/simple1.vert
+END
+toon.frag
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/toon.frag
+END
+toon.vert
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/toon.vert
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/license.txt
+END
+adaptativeAA.frag
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/adaptativeAA.frag
+END
+adaptativeAA.vert
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/adaptativeAA.vert
+END
+envmap.frag
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/envmap.frag
+END
+envmap.vert
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/envmap.vert
+END
+wood2.frag
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/wood2.frag
+END
+wood2.vert
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/wood2.vert
+END
+aabrick.frag
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/aabrick.frag
+END
+aabrick.vert
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/aabrick.vert
+END
+Gooch.frag
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/Gooch.frag
+END
+Gooch.vert
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/Gooch.vert
+END
+inferno.frag
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/inferno.frag
+END
+inferno.vert
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/inferno.vert
+END
+marble.frag
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/marble.frag
+END
+marble.vert
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/marble.vert
+END
+julia.frag
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/julia.frag
+END
+psycho.frag
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/psycho.frag
+END
+julia.vert
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/julia.vert
+END
+psycho.vert
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/psycho.vert
+END
+mip1.frag
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/mip1.frag
+END
+mip1.vert
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/mip1.vert
+END
+envmap2.frag
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/envmap2.frag
+END
+envmap2.vert
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/envmap2.vert
+END
+glass.frag
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/glass.frag
+END
+dimple.frag
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/dimple.frag
+END
+glass.vert
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/glass.vert
+END
+dimple.vert
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/dimple.vert
+END
+simple2.vert
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/simple2.vert
+END
+prueba.frag
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/prueba.frag
+END
+prueba.vert
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/prueba.vert
+END
+hatch.frag
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/hatch.frag
+END
+hatch.vert
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/hatch.vert
+END
+simple.frag
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/simple.frag
+END
+simple.vert
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/simple.vert
+END
+brick.frag
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/brick.frag
+END
+brick.vert
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/brick.vert
+END
+kill.frag
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/kill.frag
+END
+kill.vert
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/kill.vert
+END
+texture.frag
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/90/trunk/resources/ShderDesigner/texture.frag
+END
+crash.frag
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/98/trunk/resources/ShderDesigner/crash.frag
+END
+mandel.frag
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/resources/ShderDesigner/mandel.frag
+END

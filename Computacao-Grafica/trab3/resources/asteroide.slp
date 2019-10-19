@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShaderLab>
+	<shaders>
+		<vertex>/home/thiago/ufrj/11-01/PF/ShaderLab/shader-lab/resources/asteroide.vert</vertex>
+		<fragment>/home/thiago/ufrj/11-01/PF/ShaderLab/shader-lab/resources/asteroide.frag</fragment>
+	</shaders>
+</ShaderLab>

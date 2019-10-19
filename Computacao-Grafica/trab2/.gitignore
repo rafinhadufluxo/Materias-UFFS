@@ -1,0 +1,5 @@
+*.user
+Makefile
+bin/*.*
+tmp/*.o
+tmp/*.cpp

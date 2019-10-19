@@ -1,0 +1,28 @@
+ply
+format ascii 1.0
+comment triangulos apenas
+obj_info malha 2D
+element vertex 9
+property float x
+property float y
+property float z
+element face 8
+property list uchar int vertex_indices
+end_header
+0 0 0 
+1 0 0 
+1 1 0 
+0 1 0 
+-1 1 0 
+-1 0 0 
+-1 -1 0 
+0 -1 0
+1 -1 0
+3 0 1 2
+3 0 2 3
+3 0 3 4
+3 0 4 5
+3 0 5 6
+3 0 6 7
+3 0 7 8
+3 0 8 1

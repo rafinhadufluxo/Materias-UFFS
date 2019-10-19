@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ShaderLab>
+	<shaders>
+		<vertex>trivial.vert</vertex>
+		<fragment>trivial.frag</fragment>
+		<geometry>trivial.geom</geometry>
+	</shaders>
+	<model>
+		<id>0</id>
+	</model>
+	<textures>
+		<filename>imgs/Chrysanthemum.jpg</filename>
+		<filename>imgs/terrain.png</filename>
+	</textures>
+</ShaderLab>

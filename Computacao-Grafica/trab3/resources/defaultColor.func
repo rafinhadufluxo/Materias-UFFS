@@ -1,0 +1,45 @@
+const int NumEnabledLights = 1;
+const bool LocalViewer = false; 
+
+vec4 computFrontColor()
+{
+	vec3 eye;
+	vec4 color;
+	vec4 ecPosition = gl_ModelViewMatrix * gl_Vertex;
+	vec3 ecPosition3 = vec3(ecPosition) / ecPosition.w;
+	vec3 normal      = normalize(gl_NormalMatrix * gl_Normal) * gl_NormalScale;
+		
+	if(LocalViewer)
+		eye = -normalize(ecPosition3);
+	else
+		eye = vec3(0.0, 0.0, 1.0);
+		
+	// Clear the light intensity accumulators
+	vec4 amb  = vec4(0.0);
+	vec4 diff = vec4(0.0);
+	vec4 spec = vec4(0.0);
+	
+	// Look through enabled lights, comput contribution from each
+	for(int i = 0; i < NumEnabledLights; i++)
+	{
+		if(gl_LightSource[i].position.w == 0.0)
+			DirectionalLight(i, normal, amb, diff, spec);
+		else if(gl_LightSource[i].spotCutoff == 180.0)
+			PointLight(i, eye, ecPosition3, normal, amb, diff, spec);
+		else
+			SpotLight(i, eye, ecPosition3, normal, amb, diff, spec);
+	}
+	
+	// Surface color computation, omitting the specular contribuition
+	color = gl_FrontLightModelProduct.sceneColor +
+			amb  * gl_FrontMaterial.ambient +
+			diff * gl_FrontMaterial.diffuse;
+			
+	// Final surface color computation
+	//if(SeparateSpecular)
+	//	gl_FrontSecundaryColor = vec4(spec * gl_FrontMaterial.specular, 1.0);
+	//else
+		color += spec * gl_FrontMaterial.specular;
+		
+	return color;
+}

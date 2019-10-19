@@ -1,0 +1,27 @@
+ply
+format ascii 1.0           { ascii/binary, format version number }
+comment made by anonymous  { comments are keyword specified }
+comment this file is a cube
+element vertex 11           { define "vertex" element, 8 in file }
+property float32 x         { vertex contains float "x" coordinate }
+property float32 y         { y coordinate is also a vertex property }
+property float32 z         { z coordinate, too }
+element face 4             { there are 6 "face" elements in the file }
+property list uint8 int32 vertex_index 
+{ "vertex_indices" is a list of ints }
+end_header                 { delimits the end of the header }
+0 0                      { start of vertex list }
+1 0
+2 0
+3 0
+3 1
+2 1
+1 1
+0 1
+250 250                    
+350 150
+350 450
+3 8 9 10
+4 0 1 6 7                  { start of face list }
+4 1 2 5 6
+4 2 3 4 5

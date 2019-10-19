@@ -1,0 +1,15 @@
+ply
+format ascii 1.0
+comment buraco no meio
+obj_info malha 2D
+element vertex 4
+property float x
+property float y
+element face 1
+property list uchar int vertex_index
+end_header
+0 0
+1 0
+1 1
+0 1
+4 0 1 2 3
