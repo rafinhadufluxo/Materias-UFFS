@@ -1,0 +1,7 @@
+var a = 1
+if a > 1
+	show 'Maior'
+end if
+if a < 2
+	show 'Menor'
+end if

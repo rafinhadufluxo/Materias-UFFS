@@ -1,0 +1,5 @@
+var a = 1 + 1
+var x = 9 + 7 / 2
+
+show a
+show x
