@@ -19,7 +19,7 @@
     	font-weight:bolder;
         text-align: center;
         text-shadow: 2px 0px 2px #6D6498;
-        text-shadow: 0px 3px 3px  #Dccc86; 
+        text-shadow: 0px 3px 3px  #Dccc86;
     }
     div.opcao {
     	width:150px;
@@ -43,18 +43,18 @@
 <br><br>
 <form name="teste" action="respostas.php" method="post">
     <label>Seu nome: <input type="text" name="nome"></label>
-    <br><br> 
+    <br><br>
     <label>Seu e-mail: <input type="email" name="email" size="50"></label>
     <br><br>
     <fieldset>
         <legend>Questão 1</legend>
-        <label>Sigla da linguagem de marcação de hipertexto padrão da Web: 
+        <label>Sigla da linguagem de marcação de hipertexto padrão da Web:
         <input type="text" name="q1"></label>
     </fieldset>
 
     <fieldset>
         <legend>Questão 2</legend>
-        <label>Sigla da linguagem estilização de páginas padrão da Web: 
+        <label>Sigla da linguagem estilização de páginas padrão da Web:
         <input type="text" name="q2"></label>
     </fieldset>
     <fieldset>
@@ -64,9 +64,9 @@
         <div class="opcao"><input type="checkbox" value="b" name="q3[]">(b) HTML</div>
         <div class="opcao"><input type="checkbox" value="c" name="q3[]">(c) PHP</div>
         <div class="opcao"><input type="checkbox" value="d" name="q3[]">(d) CSS</div>
-        <div class="opcao"><input type="checkbox" value="e" name="q3[]">(e) JavaScript</div>    
-        <div class="opcao"><input type="checkbox" value="f" name="q3[]">(f) ASP</div>    
-    </fieldset>   
+        <div class="opcao"><input type="checkbox" value="e" name="q3[]">(e) JavaScript</div>
+        <div class="opcao"><input type="checkbox" value="f" name="q3[]">(f) ASP</div>
+    </fieldset>
     <fieldset>
        <legend>Questão 4</legend>
        É um software responsável por servir páginas web:<br>
@@ -82,11 +82,11 @@
         <div class="opcao"><input type="checkbox" value="b" name="q5[]">(b) PHP</div>
         <div class="opcao"><input type="checkbox" value="c" name="q5[]">(c) Safari</div>
         <div class="opcao"><input type="checkbox" value="d" name="q5[]">(d) Tomcat</div>
-        <div class="opcao"><input type="checkbox" value="e" name="q5[]">(e) Lighttpd</div>    
-        <div class="opcao"><input type="checkbox" value="f" name="q5[]">(f) IIS</div>      
+        <div class="opcao"><input type="checkbox" value="e" name="q5[]">(e) Lighttpd</div>
+        <div class="opcao"><input type="checkbox" value="f" name="q5[]">(f) IIS</div>
     </fieldset>
     <fieldset>
-        <legend>Questão 5</legend>
+        <legend>Questão 6</legend>
         É um sistema gerenciador de banco de dados relacional. Estamos falando de:<br>
         <div class="opcao"><input type="radio" value="a" name="q6">(a) MYSQL</div>
         <div class="opcao"><input type="radio" value="b" name="q6">(b) PHP</div>
@@ -102,7 +102,7 @@
             <option>Servidor Web</option>
             <option>PHP</option>
             <option>MySQL</option>
-        </select> é o software responsável por criar e exibir a interface com o usuário. O primeiro navegador gráfico foi criado em 1993 e chamava-se 
+        </select> é o software responsável por criar e exibir a interface com o usuário. O primeiro navegador gráfico foi criado em 1993 e chamava-se
         <select name="q8">
             <option>Escolha</option>
             <option>Internet Explorer</option>
@@ -119,7 +119,7 @@
 
     <br>
     <br>
-  
+
     <input type="checkbox" name="concordo" checked>Concordo em ceder meu e-mail para receber propagandas desta empresa e seus parceiros.<br><br>
 
   <input type="submit" value="Ver resultado!">
