@@ -1,9 +1,5 @@
 # Materias-UFFS
 
-
-![alt text](https://github.com/mazarafa/Materias-UFFS/blob/master/slider_quem_somos.jpg)
-
-
 Bem vindo ao Meu Repositorio, é apenas um semestre que começa .. 😎
 
 Seja um contribuidor parça !
@@ -20,3 +16,5 @@ Temos dos grupos:
 
 Quer se enturmar na aréa de programação, e até mesmo tirar suas duvidas, tem um grupo no 
 facebook. Segue em anexo o link --> https://www.facebook.com/groups/python.brasil/
+
+![alt text](https://github.com/mazarafa/Materias-UFFS/blob/master/slider_quem_somos.jpg)
