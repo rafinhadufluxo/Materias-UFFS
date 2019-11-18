@@ -1,5 +1,9 @@
 # Materias-UFFS
 
+
+![alt text](https://github.com/mazarafa/Materias-UFFS/blob/master/slider_quem_somos.jpg)
+
+
 Bem vindo ao Meu Repositorio, é apenas um semestre que começa .. 😎
 
 Seja um contribuidor parça !
