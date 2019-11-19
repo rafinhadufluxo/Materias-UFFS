@@ -1,5 +1,7 @@
 # BANCO-DE-DADOS
 
+Matéria ministrada pelo Dr Professor [Denio](https://github.com/duartedenio) .
+
 veja esses videos para entender a materia ai ><
 
 
