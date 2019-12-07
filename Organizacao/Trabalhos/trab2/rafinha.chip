@@ -1,4 +1,5 @@
 1)Quais os argumentos apresentados pelos adeptos da tecnologia RISC para convencer os demais das suas vantagens?
+
 RESPOSTA: O melhor modo de projetar um computador era ter um pequeno numero de instruções simples
 que executassem em um so cilcio do caminho de dados,buscando dois registradores, combiná-los de algum modo e 
 armazenar o resultado de volta em um registrador, com um argumento desses pesquisadores era de que, mesmo que 
@@ -18,7 +19,7 @@ de microprocessador mais comum em desktops, o x86, é mais semelhante ao CISC do
 chips mais novos traduzam instruções x86 baseadas em arquitetura CISC em formas baseadas 
 em arquitetura RISC mais simples, utilizando prioridade de execução. 
 
-3) Apresente e descreva sucintamente os princípios de projeto  para computadores modernos.
+3) Apresente e descreva suficientamente os princípios de projeto  para computadores modernos.
 RESPOSTA:
 * Todas as intruções são diretamente executadas por hadware, tipo não existe o nivel 
 de microinstrução para maquina com filosofia CISC as instruções, em geral menos frequentes, 
