@@ -6,4 +6,10 @@ Matéria ministrada pelo Dr Professor [Denio](https://github.com/duartedenio) e 
 Instalando o pygame, acesse esse site.
 -> https://www.pygame.org/wiki/GettingStarted
 
-( use esse comando para instalar -> python3 -m pip install -U pygame --user )
+use esse comando para instalar 
+
+        python3 -m pip install -U pygame --user )
+
+depois isso,
+    
+        python3 -m pygame.examples.aliens
