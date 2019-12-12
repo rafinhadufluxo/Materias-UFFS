@@ -9,7 +9,7 @@ Matéria ministrada pelo Dra Professora [Andressa](https://github.com/asebben) .
 
 Sobre meu trabalho final? Então, logo abaixo está o link 
 
-/*   fim do semestre mostro fechouuu  */
+-->  https://github.com/mazarafa/weekend-w
 
 
 É um crud simples e básico, feito com três materias juntas no projeto integrador do curso !
