@@ -14,7 +14,7 @@ depois isso,
     
         python3 -m pygame.examples.aliens
         
-===================================================================================================
+======================================================================
 
 Deseja tirar suas duvidas sobre funções, matrizes,  ou pedir ajuda sobre algo de Python.
 
