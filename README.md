@@ -18,6 +18,8 @@ Temos dos grupos:
 --> Facebook: https://www.facebook.com/groups/CACCUFFSCCO/                                                                           
 --> telegram: https://t.me/ccuffs  
 --> wpp: https://chat.whatsapp.com/CPQrLeFht2XBiFfT9IBoci
+
+--> Discord: https://discord.gg/4xUgRNT
      
      
 
