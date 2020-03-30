@@ -3,9 +3,16 @@
  É um repositorio dedicado ao workshop de git e github, aqui você pode tirar suas duvidas e pedir ajuda em terminada situação.
  
  
+ 
+**Instruções de como mexer no git [COMPLETO]**
+
+           https://github.com/DanielHe4rt/git4noobs
+ 
+ 
+ 
  Quer fazer um github pages, usando hospedagem do proprio git?
  
- Acesse o link logo abaixo, aonde tem maiores informações sobre.
+ Acesse o link logo abaixo, aonde tem maiores informações sobre. Tipo criar pagina do github.io 
  
             https://pages.github.com/
             
