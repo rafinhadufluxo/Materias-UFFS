@@ -6,9 +6,9 @@ Matéria ministrada pelo Dr Professor [Denio](https://github.com/duartedenio) e 
 Instalando o pygame, acesse esse site.
 -> https://www.pygame.org/wiki/GettingStarted
 
-use esse comando para instalar 
+use esse comando para instalar no ubuntu
 
-        python3 -m pip install -U pygame --user )
+        sudo pip3 install pygame
 
 depois isso,
     
