@@ -1,5 +1,0 @@
-var i
-while i < 10
-	show i
-	var i = i + 1
-end while

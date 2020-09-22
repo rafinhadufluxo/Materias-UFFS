@@ -1,4 +1,0 @@
-show 'Media aritmética'
-get x
-get y
-show x+y/2
