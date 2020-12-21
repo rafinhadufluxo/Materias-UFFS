@@ -9,7 +9,7 @@
 
 Bem vindo(a) para o repositório Materias UFFS, é apenas um semestre que começa ... 😎
 
-Seja um contribuidor nesta plataforma!
+Seja um contribuidor desta plataforma!
 
 É do curso de Ciência da Computação da UFFS ? Calouro talvez?
 
