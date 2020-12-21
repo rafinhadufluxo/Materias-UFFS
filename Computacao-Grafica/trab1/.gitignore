@@ -1,6 +1,0 @@
-*.user
-ImageFactory
-Makefile
-*.o
-ImageFactory.app
-ImageFactory.app/*

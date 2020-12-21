@@ -7,24 +7,26 @@
 </p>
 
 
-Bem vindo ao Meu Repositorio, é apenas um semestre que começa .. 😎
+Bem vindo(a) para o repositório Materias UFFS, é apenas um semestre que começa ... 😎
 
-Seja um contribuidor parça !
+Seja um contribuidor nesta plataforma!
 
 É do curso de Ciência da Computação da UFFS ? Calouro talvez?
 
 Temos dos grupos:
 
---> Facebook: https://www.facebook.com/groups/CACCUFFSCCO/                                                                           
---> telegram: https://t.me/ccuffs  
---> wpp: https://chat.whatsapp.com/CPQrLeFht2XBiFfT9IBoci
+- Facebook: https://www.facebook.com/groups/CACCUFFSCCO/                                                                           
+- telegram: https://t.me/ccuffs  
+- wpp: https://chat.whatsapp.com/CPQrLeFht2XBiFfT9IBoci
 
---> Discord: https://discord.gg/4xUgRNT
+- Discord: https://discord.gg/seueEQXspD
      
      
 
 Quer se enturmar na aréa de programação, e até mesmo tirar suas duvidas, tem um grupo no 
-facebook. Segue em anexo o link --> https://www.facebook.com/groups/python.brasil/
+facebook. Segue em anexo o link 
+
+- https://www.facebook.com/groups/python.brasil/
 
 
 
