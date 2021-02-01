@@ -1,0 +1,1 @@
+Prove que o algoritmo de Dijkstra calcula os caminhos mínimos.
