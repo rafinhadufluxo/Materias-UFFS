@@ -1,5 +1,3 @@
-# LFA
-
 # INTRODUÇÃO DO PROJETO
 
 Desenvolver uma aplicação de determinização e minimização (eliminação de mortos 
