@@ -1,0 +1,214 @@
+Simulação do Aeroporto
+K=9 C=3 V=4 T=5 
+***********************************************
+
+
+[t=0][k=2]
+
+Fila de Avioes para Pousar e Decolar
+[Pousar  Normal][TA-1][ITA-G][Duracao 2][Espera 0]
+[Pousar  Emerg][AF-2][FRC-G][Duracao 3][Espera 0]
+
+Avioes atendidos com Emergencia
+[Pista 1][Pousar  Emerg][AF-2][FRC-G][Duracao 3][Espera 0]
+
+Avioes atendidos Normal
+[Pista 2][Pousar  Normal][TA-1][ITA-G][Duracao 2][Espera 0]
+
+Estadisticas da iteracao [0]
+Nro. avioes pousaram                          [1]
+Nro. avioes decolaram                         [0]
+Nro. avioes esperam pousar                    [0]
+Nro. avioes esperam decolar                   [0]
+Nro. avioes pousaram emergencia               [1]
+Nro. avioes decolaram emergencia              [0]
+Tempo espera de pousos                        [0]
+Tempo espera de decolagens                    [0]
+Tempo medio de espera pousar                  [0.00]
+Tempo medio de espera decolar                 [0.00]
+Quant. combust. avioes esperando pousar       [0]
+Quant. combust. avioes pousaram               [5]
+Quant. media combust. avioes esperando pousar [0.00]
+Quant. media combust. avioes pousaram         [2.50]
+Nro. avioes desviados                         [0]
+***********************************************
+
+
+[t=1][k=9]
+
+Fila de Avioes para Pousar e Decolar
+[Decolar Emerg][LA-3][G-CGH][Duracao 4][Espera 0]
+[Decolar Normal][LA-4][G-SBM][Duracao 1][Espera 0]
+[Decolar Normal][LA-5][G-SBM][Duracao 1][Espera 0]
+[Pousar  Normal][TA-6][LIN-G][Duracao 1][Espera 0]
+[Pousar  Normal][GO-7][DAS-G][Duracao 1][Espera 0]
+[Decolar Normal][TA-8][G-SBM][Duracao 1][Espera 0]
+[Decolar Normal][LA-9][G-SBM][Duracao 1][Espera 0]
+[Pousar  Normal][IB-10][SD1-G][Duracao 2][Espera 0]
+[Decolar Normal][IB-11][G-SBM][Duracao 1][Espera 0]
+
+Avioes atendidos com Emergencia
+[Pista 1][Decolar Emerg][LA-3][G-CGH][Duracao 4][Espera 0]
+
+Avioes atendidos Normal
+[Pista 2][Decolar Normal][LA-4][G-SBM][Duracao 1][Espera 0]
+[Pista 3][Decolar Normal][LA-5][G-SBM][Duracao 1][Espera 0]
+[Esperar][Pousar  Normal][TA-6][LIN-G][Duracao 1][Espera 0]
+[Esperar][Pousar  Normal][GO-7][DAS-G][Duracao 1][Espera 0]
+[Esperar][Decolar Normal][TA-8][G-SBM][Duracao 1][Espera 0]
+[Esperar][Decolar Normal][LA-9][G-SBM][Duracao 1][Espera 0]
+[Esperar][Pousar  Normal][IB-10][SD1-G][Duracao 2][Espera 0]
+[Esperar][Decolar Normal][IB-11][G-SBM][Duracao 1][Espera 0]
+
+Estadisticas da iteracao [1]
+Nro. avioes pousaram                          [0]
+Nro. avioes decolaram                         [2]
+Nro. avioes esperam pousar                    [3]
+Nro. avioes esperam decolar                   [3]
+Nro. avioes pousaram emergencia               [0]
+Nro. avioes decolaram emergencia              [1]
+Tempo espera de pousos                        [0]
+Tempo espera de decolagens                    [0]
+Tempo medio de espera pousar                  [0.00]
+Tempo medio de espera decolar                 [0.00]
+Quant. combust. avioes esperando pousar       [4]
+Quant. combust. avioes pousaram               [0]
+Quant. media combust. avioes esperando pousar [1.33]
+Quant. media combust. avioes pousaram         [0.00]
+Nro. avioes desviados                         [0]
+***********************************************
+
+
+[t=2][k=1]
+
+Fila de Avioes para Pousar e Decolar
+[Pousar  Emerg][TA-6][LIN-G][Duracao 0][Espera 1]
+[Pousar  Emerg][GO-7][DAS-G][Duracao 0][Espera 1]
+[Decolar Emerg][TA-8][G-SBM][Duracao 1][Espera 1]
+[Decolar Emerg][LA-9][G-SBM][Duracao 1][Espera 1]
+[Pousar  Emerg][IB-10][SD1-G][Duracao 1][Espera 1]
+[Decolar Emerg][IB-11][G-SBM][Duracao 1][Espera 1]
+[Pousar  Normal][TA-12][OUR-G][Duracao 2][Espera 0]
+
+Avioes atendidos com Emergencia
+[Pista 1][Pousar  Emerg][TA-6][LIN-G][Duracao 0][Espera 1]
+[Pista 2][Pousar  Emerg][GO-7][DAS-G][Duracao 0][Espera 1]
+[Pista 3][Decolar Emerg][TA-8][G-SBM][Duracao 1][Espera 1]
+[Esperar][Decolar Emerg][LA-9][G-SBM][Duracao 1][Espera 1]
+[Desviar][Pousar  Emerg][IB-10][SD1-G][Duracao 1][Espera 1]
+[Esperar][Decolar Emerg][IB-11][G-SBM][Duracao 1][Espera 1]
+
+Avioes atendidos Normal
+[Esperar][Pousar  Normal][TA-12][OUR-G][Duracao 2][Espera 0]
+
+Estadisticas da iteracao [2]
+Nro. avioes pousaram                          [0]
+Nro. avioes decolaram                         [0]
+Nro. avioes esperam pousar                    [1]
+Nro. avioes esperam decolar                   [2]
+Nro. avioes pousaram emergencia               [2]
+Nro. avioes decolaram emergencia              [1]
+Tempo espera de pousos                        [0]
+Tempo espera de decolagens                    [2]
+Tempo medio de espera pousar                  [0.00]
+Tempo medio de espera decolar                 [0.67]
+Quant. combust. avioes esperando pousar       [2]
+Quant. combust. avioes pousaram               [0]
+Quant. media combust. avioes esperando pousar [0.67]
+Quant. media combust. avioes pousaram         [0.00]
+Nro. avioes desviados                         [1]
+***********************************************
+
+
+[t=3][k=2]
+
+Fila de Avioes para Pousar e Decolar
+[Pousar  Emerg][TA-12][OUR-G][Duracao 1][Espera 1]
+[Decolar Normal][GO-13][G-SBM][Duracao 1][Espera 0]
+[Pousar  Normal][GO-14][DRA-G][Duracao 3][Espera 0]
+
+Avioes atendidos com Emergencia
+[Pista 1][Pousar  Emerg][TA-12][OUR-G][Duracao 1][Espera 1]
+
+Avioes atendidos Normal
+[Pista 2][Decolar Normal][GO-13][G-SBM][Duracao 1][Espera 0]
+[Esperar][Pousar  Normal][GO-14][DRA-G][Duracao 3][Espera 0]
+
+Estadisticas da iteracao [3]
+Nro. avioes pousaram                          [0]
+Nro. avioes decolaram                         [1]
+Nro. avioes esperam pousar                    [1]
+Nro. avioes esperam decolar                   [0]
+Nro. avioes pousaram emergencia               [1]
+Nro. avioes decolaram emergencia              [0]
+Tempo espera de pousos                        [0]
+Tempo espera de decolagens                    [0]
+Tempo medio de espera pousar                  [0.00]
+Tempo medio de espera decolar                 [0.00]
+Quant. combust. avioes esperando pousar       [3]
+Quant. combust. avioes pousaram               [1]
+Quant. media combust. avioes esperando pousar [1.50]
+Quant. media combust. avioes pousaram         [0.50]
+Nro. avioes desviados                         [0]
+***********************************************
+
+
+[t=4][k=5]
+
+Fila de Avioes para Pousar e Decolar
+[Pousar  Normal][GO-14][DRA-G][Duracao 2][Espera 1]
+[Decolar Normal][TA-15][G-SBM][Duracao 1][Espera 0]
+[Decolar Emerg][IB-16][G-SBM][Duracao 1][Espera 0]
+[Decolar Normal][IB-17][G-SBM][Duracao 1][Espera 0]
+[Pousar  Emerg][GO-18][BAT-G][Duracao 2][Espera 0]
+[Pousar  Emerg][LA-19][ITA-G][Duracao 1][Espera 0]
+
+Avioes atendidos com Emergencia
+[Pista 1][Decolar Emerg][IB-16][G-SBM][Duracao 1][Espera 0]
+[Pista 2][Pousar  Emerg][GO-18][BAT-G][Duracao 2][Espera 0]
+[Pista 3][Pousar  Emerg][LA-19][ITA-G][Duracao 1][Espera 0]
+
+Avioes atendidos Normal
+[Esperar][Pousar  Normal][GO-14][DRA-G][Duracao 2][Espera 1]
+[Esperar][Decolar Normal][TA-15][G-SBM][Duracao 1][Espera 0]
+[Esperar][Decolar Normal][IB-17][G-SBM][Duracao 1][Espera 0]
+
+Estadisticas da iteracao [4]
+Nro. avioes pousaram                          [0]
+Nro. avioes decolaram                         [0]
+Nro. avioes esperam pousar                    [1]
+Nro. avioes esperam decolar                   [2]
+Nro. avioes pousaram emergencia               [2]
+Nro. avioes decolaram emergencia              [1]
+Tempo espera de pousos                        [1]
+Tempo espera de decolagens                    [0]
+Tempo medio de espera pousar                  [0.33]
+Tempo medio de espera decolar                 [0.00]
+Quant. combust. avioes esperando pousar       [2]
+Quant. combust. avioes pousaram               [3]
+Quant. media combust. avioes esperando pousar [0.67]
+Quant. media combust. avioes pousaram         [1.00]
+Nro. avioes desviados                         [0]
+***********************************************
+
+Estadistica Global
+Nro. avioes pousaram                          [1]
+Nro. avioes decolaram                         [3]
+Nro. avioes esperam pousar                    [6]
+Nro. avioes esperam decolar                   [7]
+Nro. avioes pousaram emergencia               [6]
+Nro. avioes decolaram emergencia              [3]
+Tempo espera de pousos                        [1]
+Tempo espera de decolagens                    [2]
+Tempo medio de espera pousar                  [0.08]
+Tempo medio de espera decolar                 [0.15]
+Quant. combust. avioes esperando pousar       [11]
+Quant. combust. avioes pousaram               [9]
+Quant. media combust. avioes esperando pousar [0.85]
+Quant. media combust. avioes pousaram         [0.69]
+Nro. avioes desviados                         [1]
+
+Fila de Avioes nao atendidos.
+[Pousar  Emerg][GO-14][DRA-G][Duracao 1][Espera 2]
+[Decolar Emerg][TA-15][G-SBM][Duracao 1][Espera 1]
+[Decolar Emerg][IB-17][G-SBM][Duracao 1][Espera 1]
