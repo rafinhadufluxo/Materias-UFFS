@@ -1,0 +1,44 @@
+Primeiramente, crie o banco de dados executando o código abaixo no phpMyAdmin de seu servidor local (localhost).
+
+DROP DATABASE IF EXISTS uffs;
+CREATE DATABASE uffs DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE uffs;
+DROP USER IF EXISTS 'admuffs'@'localhost';
+CREATE USER 'admuffs'@'localhost' IDENTIFIED BY '12345';
+GRANT SELECT, INSERT, UPDATE, DELETE ON uffs.* TO 'admuffs'@'localhost';
+CREATE TABLE alunos (
+  matricula INTEGER NOT NULL PRIMARY KEY,  
+  nome VARCHAR(50) NOT NULL,
+  email VARCHAR(50),
+  endereco VARCHAR(50),
+  cidade VARCHAR(50),
+  telefone VARCHAR(15),
+  situacao BOOLEAN   
+);
+INSERT INTO alunos VALUES ('201510056', 'João Silva', 'js@gmail.com', 'Rua 7 de setembro 96', 'Chapecó', '(49)99999-9999', 0), ('201820147', 'Pedro Santos', 'psantos@gmail.com', 'Rua Atilio Fontana 943', 'Chapecó', '(49)88888-88888', 1), ('201610036', 'Maria Oliveira', 'moliveira@gmail.com', 'Rua Jardim Europa 130', 'Chapecó', '(49)77777-7777', 1), ('201910589', 'Ana Souza', 'asouza@gmail.com', 'Rua Araras 598', 'Chapecó', '(49)66666-6666', 1);
+
+Baixe o arquivo index.php (abaixo). Ele contém um form para consulta de situação e dados de contato de alunos. Você deve criar, na mesma pasta, mais 2 páginas:
+
+principal.php (5,0)
+
+Este arquivo é o action do formulário presente no index. Nele, você deve:
+
+receber o número de matrícula digitado no formulário do index.php;
+conectar ao banco de dados (com os dados presentes no SQL acima);
+selecionar da tabela alunos a matrícula, o nome e a situação do aluno referente ao número de matrícula informado no form;
+se não for retornado nenhum registro, mostrar uma mensagem: "Número de matrícula inexistente";
+se for retornado um registro:
+iniciar uma session;
+gravar na session o número da matrícula e o nome do aluno retornados na consulta;
+mostrar no corpo da página o número da matrícula, o nome e a situação, usando elementos HTML à sua escolha (tabela, divs, cabeçalhos, parágrafos, etc). A situação deve ser mostrada como "Inativo", se o campo contiver o valor zero, e "Ativo", se tiver o valor 1;
+Ao lado dos dados do aluno, mostrar um link chamado "ver detalhes", apontando para a página detalhes.php.
+detalhes.php (5,0)
+
+Esta página deve mostrar os demais dados do aluno que estava sendo visualizado na página principal.php. Para isso, deve:
+
+conectar-se à session existente;
+mostrar no corpo da página, dentro de um elemento <h1>: "Dados de contato do aluno NNNNNN", exibindo o nome do aluno gravado na session;
+realizar uma consulta ao BD para trazer o e-mail, endereço, cidade e telefone do aluno cujo número da matrícula está gravada na session.
+sair.php (nota adicional)
+
+Fazer uma opção sair ou logoff que encerre a sessão e redirecione para a página index.php.

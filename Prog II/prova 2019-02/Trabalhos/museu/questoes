@@ -1,0 +1,45 @@
+questão 2 - palavra chave que permite acessar atributo e metodo estáticos da classe :
+RESPOSTA: self
+---------------------------------------------------------------------------------------------------------------
+questão 3 -Tentativa de realizar acesssos ou alterações indevidas manipulando as querys atraves de campos
+abertos e dados enviados via URL:
+RESPOSTA: sql injection
+---------------------------------------------------------------------------------------------------------------
+questão 4 - Em um form que necessita enviar arquivos além de dados, é necessário o atributo (e seu valor):
+RESPOSTA : enctype="multipart/form-data"
+---------------------------------------------------------------------------------------------------------------
+questão 5 - palavra chave para referenciar o proprio objeto:
+RESPOSTA: this
+---------------------------------------------------------------------------------------------------------------
+questão 6 - palavra chave que instancia um novo objeto:
+RESPOSTA: new
+---------------------------------------------------------------------------------------------------------------
+questão 7 - palavra-chave para que a subclasse possa acessar membros da superclasse:
+RESPOSTA : parent
+---------------------------------------------------------------------------------------------------------------
+questão 8- Método especial para definir como um objeto se comportará se for convertido em string.
+RESPOSTA: __toString()
+---------------------------------------------------------------------------------------------------------------
+questão 9 - Relação todo/parte onde as partes estão contidas no todo e são eliminadas juntamente como este:
+RESPOSTA: composicao
+---------------------------------------------------------------------------------------------------------------
+questão 10 - Operador(sinal de pontuação) utilizado para acessar constantes (escreva 0(s) sinal (is), e não 
+seus nomes):
+RESPOSTA: ::
+---------------------------------------------------------------------------------------------------------------
+questão 11 - palavra chave para definir atributos que são compartilhados entre todas as instancias da classe:
+RESPOSTA: static 
+---------------------------------------------------------------------------------------------------------------
+questão 12 - O HTTP é um protocolo sem estado. Explique :
+a) O quê isso significa;
+RESPOSTA : A questão de ser sem estado significa que cada requisição e tratada de forma independente, sem nenhuma 
+relação com as requisições anteriores ou seja, não permite "lembrar" dados fornecidos anteriormente pelo usuario.
+
+b) em que situações isso se torna um problema na navegação em uma aplicação web;
+RESPOSTA: O problema e quando precisamos manter o estado da aplicação, ou seja, "lembrar" que o usuario ja fez
+login e não pedir novamente a cada requisição; lembrar os produtos que ele adicionou ao carrinho, etc.
+
+c) que mecanismos do PHP podemos utilizar para contorna-lo.
+RESPOSTA: No PHP temos os recursos para criar cookies(no cliente) ou iniciar e encerrar sessions(no servidor), 
+permitindo assim armazenar alguns dados que não se perdem entre requisição e outra do mesmo usuario.
+
