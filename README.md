@@ -23,11 +23,4 @@ Temos dos grupos:
      
      
 
-Quer se enturmar na aréa de programação, e até mesmo tirar suas duvidas, tem um grupo no 
-facebook. Segue em anexo o link 
-
-- https://www.facebook.com/groups/python.brasil/
-
-
-
 
