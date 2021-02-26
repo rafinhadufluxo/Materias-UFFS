@@ -1,3 +1,0 @@
-#Matematica Discreta
-
-
