@@ -1,0 +1,25 @@
+Produto: Arroz             
+Qtd: 10    
+Valor: 16,28
+-
+Produto: Feijao            
+Qtd: 20
+Valor:  9,30
+-
+Produto: Oléo          
+Qtd: 30
+Valor: 14,85
+-
+Produto: Alface            
+Qtd: 40
+Valor: 1,86
+-
+Produto: Maça          
+Qtd: 50
+Valor:  2,00
+-
+Produto: Leite                       
+Qtd: 60
+Valor: 5,90
+-------------------------
+TOTAL: 345,70
