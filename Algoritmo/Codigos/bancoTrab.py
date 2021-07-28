@@ -1,5 +1,5 @@
 # NOME = Rafaelle Arruda
-# email = mazarafa7@gmail.com
+
 print("======================")
 print("= BANCO TOMORROWLAND = ")
 print("======================")
