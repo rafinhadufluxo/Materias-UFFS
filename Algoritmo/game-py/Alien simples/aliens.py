@@ -1,6 +1,4 @@
-#autor : Rafaelle Arruda
-#Github : mazarafa
-#email: arruda.rafa.ra@gmail.com
+
 
 import pygame
 import sys
