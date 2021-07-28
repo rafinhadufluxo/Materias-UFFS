@@ -8,9 +8,6 @@
 #Quando uma retirada é feita, o programa sempre deve fornecer o menor número possível de notas.
 #Considere que podem ser fornecidas notas de R$ 100, R$ 50, R$ 20, R$ 10 e R$ 5.
 
-#autor: RAFAELLE ARRUDA
-#email: arruda.rafa.ra@gmail.com
-#GIT HUB (minha conta para ver meus trabalho no Git) -> https://github.com/mazarafa/Python_3
 
 print("============================")
 print("      BRANCO PYTHON BR       ")
