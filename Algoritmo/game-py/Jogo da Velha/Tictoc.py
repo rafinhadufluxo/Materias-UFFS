@@ -1,6 +1,4 @@
-#GITHUB : mazarafa7 (codigo disponivel)
-#autor: rafaelle Arruda
-#email: arruda.rafa.ra@gmail.com
+
 
 import turtle
 import random
