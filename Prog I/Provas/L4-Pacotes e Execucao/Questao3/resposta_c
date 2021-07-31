@@ -1,6 +1,0 @@
-c) Com base no método criado na questão a), o que aparecerá na saída padrão se o código 
-abaixo for executado com value tendo valor 2? Justifique.
-
-R = Irá aparecer na tela o "EthernetException", pelo simples fato que no If diz se o valor 
-igual ao componente EthernetException, e logo vai levantar e ir para sua classe e logo
-imprimirá na tela.
