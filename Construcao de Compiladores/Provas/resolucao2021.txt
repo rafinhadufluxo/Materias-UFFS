@@ -1,0 +1,19 @@
+2- Usando o esquema de tradução 5.3 do material de apoio, gerar o código de três endereços (intermediário)
+para a seguinte expressão:
+X := (A + B + C) * D
+Obs.: para demonstrar a aplicação das ações semânticas de acordo com a redução da respectiva produção,
+construir a árvore de derivação ou identificar operação (ação semântica) executada a cada redução. 
+
+
+resolução da questão:
+
+X = ( A + B + C ) * D
+
+T1 = A + B + C
+T2 = T1 * D
+X = T2
+
+T1 e T2 são variáveis temporárias, para um código de três 
+endereços pode ser implementado através de quádruplas ou 
+triplas, mas neste exercício podemos observar na arvore de 
+derivação é simples.
