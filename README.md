@@ -1,25 +1,27 @@
 # Materias-UFFS
 
+Bem vindo(a) para o repositório Materias UFFS, é apenas um semestre que começa ... 😎
+
+
 <p align="center">
-    <img  src="slider_quem_somos.jpg" title="Logo do curso"><br />
+    <br>
     <img src="https://img.shields.io/maintenance/yes/2022?style=for-the-badge" title="Status do projeto">
     <img src="https://img.shields.io/travis/ccuffs/template?style=for-the-badge" title="Status do build">
 </p>
 
 
-Bem vindo(a) para o repositório Materias UFFS, é apenas um semestre que começa ... 😎
 
-Seja um contribuidor desta plataforma!
+## Como Contribuir
 
-É do curso de Ciência da Computação da UFFS ? Calouro talvez?
+Para contribuir e deixar a comunidade open source um lugar incrivel para aprender, projetar, criar e inspirar outras pessoas. Basta seguir as instruções logo abaixo:
 
-Temos dos grupos:
+1. Realize um Fork do projeto
+2. Crie um branch com a nova feature (`git checkout -b feature/AcabouSemestre`)
+3. Realize o Commit (`git commit -m 'Add some AcabouSemestre'`)
+4. Realize o Push no Branch (`git push origin feature/AcabouSemestre`)
+5. Abra um Pull Request
 
-- Facebook: https://www.facebook.com/groups/CACCUFFSCCO/      <br>                                                                     
-- telegram: https://t.me/ccuffs  <br>
-- wpp: https://chat.whatsapp.com/CPQrLeFht2XBiFfT9IBoci <br>
-- Discord: https://discord.gg/seueEQXspD  <br><br>
-
+<br>
      
 ## Projetos semelhates
 
