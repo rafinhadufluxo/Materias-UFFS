@@ -3,11 +3,7 @@
 Bem vindo(a) para o repositório Materias UFFS, é apenas um semestre que começa ... 😎
 
 
-<p align="center">
-    <br>
-    <img src="https://img.shields.io/maintenance/yes/2022?style=for-the-badge" title="Status do projeto">
-    <img src="https://img.shields.io/travis/ccuffs/template?style=for-the-badge" title="Status do build">
-</p>
+
 
 
 
