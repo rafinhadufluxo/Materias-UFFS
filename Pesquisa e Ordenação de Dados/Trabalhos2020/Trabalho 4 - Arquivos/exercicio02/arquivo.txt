@@ -1,0 +1,4 @@
+banana 1 2.00
+salgadinho 2 8.50
+refrigerante 1 3.00
+chiclete 10 0.25
