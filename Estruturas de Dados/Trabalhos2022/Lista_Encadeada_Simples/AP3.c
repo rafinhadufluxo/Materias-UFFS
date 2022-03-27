@@ -1,5 +1,5 @@
 /*
- * AP3 - Lista Simplesmnte Encadeada
+ * AP3 - Lista Simplesmente Encadeada
  *
  * GEX605  - Estruturas de Dados // 2021/2
  *  
