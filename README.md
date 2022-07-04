@@ -16,18 +16,3 @@ Para contribuir e deixar a comunidade open source um lugar incrivel para aprende
 3. Realize o Commit (`git commit -m 'Add some AcabouSemestre'`)
 4. Realize o Push no Branch (`git push origin feature/AcabouSemestre`)
 5. Abra um Pull Request
-
-<br>
-     
-## Projetos semelhates
-
-Abaixo está uma lista de links interessantes e projetos similares:
-
-
-* [UFFS  ](https://github.com/alissonpeloso/UFFS) - *Autor Alisson Luan de Lima Peloso*
-* [UFFS CC ](https://github.com/CleissonVieira/UFFS-CC) - *Autor Cleisson Vieira*
-* [Resumos Ciencia Da Computacao](https://github.com/barbs-pm/ResumosCienciaDaComputacao) - *Autora Bárbara Pegoraro Markus*
-* [Provas UFFS](https://github.com/oldigor/provas-uffs) - *Autor Igor Vicente*
-* [Computer Science Codes](https://github.com/arufonsekun/computer-science-codes) - *Autor Junior Vitor Ramisch*
-* [UFFS Algorithms](https://github.com/mateusKoppe/uffs-algorithms) - *Autor Mateus Koppe*
-* [UFFS-Degree](https://github.com/MaNegrao/UFFS-Degree) - *Autor Matheus Negrão*
