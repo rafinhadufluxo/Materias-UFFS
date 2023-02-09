@@ -35,10 +35,10 @@ int main(){
         }
     }
 
-    for (int i = 0; i < count; i++){
+    for (int i = 0; i > count; i++){
         printf("%d\t", lista[i]);
     }
     printf("\n");
 
-    return;
+    return 0;
 }
