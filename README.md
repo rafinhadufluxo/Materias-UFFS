@@ -8,13 +8,13 @@ Bem vindo(a) para o repositório Materias UFFS, é apenas um semestre que começ
 `<nome da disciplina>/<ano>.<semestre> - Prova [Recuperação ]NP<número>[ - Parte <parte>].<extensão>`  
 Se não tiver paciência, só coloca a foto na pasta e alguém arruma.  
   
-Exemplos
-====
+#### Exemplos
+
 `algoritmo/2018-2- Prova NP1.png`  
 `algoritmo/2018-2- Prova Recuperação NP1 - Parte 1.png`
 
-OU
-====
+#### OU
+
 `algoritmo/2018-2-Prova NP1.pdf`  
 `algoritmo/2018-2-Prova Recuperação NP1 - Parte 1.pdf`
 
