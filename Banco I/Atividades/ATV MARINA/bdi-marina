@@ -1,0 +1,26 @@
+marina
+Q1. select s.sname from sailor s inner join reserve r on s.sid = r.sid where r.bid = 103;
+Q1A. select s.sname from sailor s natural join reserve r where s.sid not in(select sid from reserve where bid = 103);
+Q2. select s.sname from sailor s join reserve r on s.sid = r.sid join boat b on r.bid = b.bid where b.color = 'red';
+Q3. select s.sname, b.color from sailor s join reserve r on s.sid = r.sid join boat b on r.bid = b.bid where s.sname = 'Lubber';
+Q4. select distinct  s.sname from sailor s join reserve r on s.sid = r.sid;
+Q4A. RESERVARAM MAIS DE UM BARCO select distinct  s.sname from sailor s join reserve r on s.sid = r.sid group by s.sid having count(distinct r.bid) > 1;
+Q5. select s.sname from sailor s join reserve r on s.sid = r.sid join boat b on r.bid = b.bid where b.color in('green', 'red');
+Q6. select s.sname from sailor s where s.sid in(select r.sid from reserve r join boat b on r.bid = b.bid  where b.color = 'red') and s.sid in(select r.sid from reserve r join boat b on r.bid = b.bid where b.color = 'green');
+Q6A. select s.sname from sailor s where s.sid in(select r.sid from reserve r join boat b on r.bid = b.bid where b.color = 'red') and s.sid not in(select r.sid from reserve r join boat b on r.bid = b.bid where b.color = 'green'); 
+Q7. SELECT s.sname FROM sailor s JOIN reserve r1 ON s.sid = r1.sid JOIN reserve r2 ON s.sid = r2.sid JOIN boat b1 ON r1.bid = b1.bid JOIN boat b2 ON r2.bid = b2.bid WHERE b1.bid <> b2.bid GROUP BY s.sid, s.sname HAVING COUNT(DISTINCT r1.bid) >= 2;
+Q8. with
+tb as (select count(bid) as qtb from boat)
+select s.sname, count(distinct b.bid) from sailor s join reserve r on s.sid = r.sid join boat b on r.bid = b.bid group by s.sid having count(distinct b.bid) = (select qtb from tb);
+RESERVARAM TODOS OS BARCOS: select s.sname from sailor s natural join reserve r natural join boat b group by s.sname having count(distinct b.bid) = count(r.bid);
+Q9. SELECT s.sid, s.sname, r1.day, r1.bid AS bid1, r2.bid AS bid2, s.rating AS rating1, s.rating AS rating2, (s.rating - s.rating) AS incremento
+FROM sailor s
+JOIN reserve r1 ON s.sid = r1.sid
+JOIN reserve r2 ON s.sid = r2.sid AND r1.day = r2.day AND r1.bid <> r2.bid
+JOIN boat b1 ON r1.bid = b1.bid
+JOIN boat b2 ON r2.bid = b2.bid;
+Q10.select s.sname from sailor s where s.age (select max(age) from sailor);
+Q11. menor idade:  select s.sname from sailor s where s.age in(select min(age) from sailor);
+Q12. select  b.color, count(b.color) from boat b group by color;
+
+ 
