@@ -1,0 +1,41 @@
+enviar mapa de karnaugh à mão
+Circuito no Digital de Contador Gray
+Não precisa relatório
+usar o quadro que está na página 13 dos slides para montar os karnaughs de cada J e cada K
+Após isso, fazer os circuitos para as entradas
+
+Q3 Q2 Q1 Q0
+0  0  0  0
+0  0  0  1
+0  0  1  1
+0  0  1  0
+0  1  1  0
+0  1  1  1
+0  1  0  1
+0  1  0  0
+1  1  0  0
+1  1  0  1
+1  1  1  1
+1  1  1  0
+1  0  1  0
+1  0  1  1
+1  0  0  1
+1  0  0  0
+
+e  s  t  a    p  r  o  x
+0  0  0  0    0  0  0  1
+0  0  0  1    0  0  1  1
+0  0  1  0    0  1  1  0
+0  0  1  1    0  0  1  0
+0  1  0  0    1  1  0  0
+0  1  0  1    0  1  0  0
+0  1  1  0    0  1  1  1
+0  1  1  1    0  1  0  1
+1  0  0  0    0  0  0  0
+1  0  0  1    1  0  0  0
+1  0  1  0    1  0  1  1
+1  0  1  1    1  0  0  1
+1  1  0  0    1  1  0  1
+1  1  0  1    1  1  1  1
+1  1  1  0    1  0  1  0
+1  1  1  1    1  1  1  0
