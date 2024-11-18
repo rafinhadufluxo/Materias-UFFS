@@ -45,39 +45,29 @@ ENDEREÇAMENTO SEPARADO		 *
 void insertNode(hashnode **hashTable, int k, int M){
 	int id;
        	id = hashing(k,M);//Calcula o id do valor
-	hashnode *aux;
-	hashnode *aux2;
-	aux = (hashnode *)malloc(sizeof(hashnode));
-	aux->valor = k;
-	aux->next = NULL;
+	hashnode *curr;
+	hashnode *nexT;
+	curr = (hashnode *)malloc(sizeof(hashnode));
+	curr->valor = k;
+	curr->next = NULL;
 	if (hashTable[id] == NULL){
-		hashTable[id] = aux;
+		hashTable[id] = curr;
 	}
 	else{
-		aux2 = hashTable[id];
+		nexT = hashTable[id];
 		// encontra o último da lista
-		while (aux2->next != NULL){
-			aux2 = aux2->next;
+		while (nexT->next != NULL){
+			nexT = nexT->next;
 		}
-		aux2->next = aux;
+		nexT->next = curr;
 	}
 }
 				/*
 Função para Imprimir Tabela	 *
 				 */
 void printTable(hashnode **hashTable, int M){
-	int i;
 	printf("ID | Table\n");
-	for(i=0;i<M;i++){
-		if(i<10) printf("0");
-		printf("%d |", i);
-		hashnode *curr = hashTable[i];
-		while (curr != NULL) {
-			printf(" %d ->", curr->valor);
-			curr = curr->next;
-		}
-		printf(" NULL\n");
-	}
+	
 }
 				/*
 Função para Liberar		 *
@@ -85,14 +75,14 @@ Memória Alocada			*
 				 */
 void freeMemory(hashnode **hashTable, int M){
 	int i;
-	hashnode *aux;
-	hashnode *aux2;
+	hashnode *curr;
+	hashnode *nexT;
 	for(i=0;i<M;i++){
-		aux = hashTable[i];
-		while(aux2!=NULL){
-			aux2 = aux;
-			aux = aux->next;
-			free(aux2);
+		curr = hashTable[i];
+		while(nexT!=NULL){
+			nexT = curr;
+			curr = curr->next;
+			free(nexT);
 		}
 		hashTable[i] = NULL;
 	}
@@ -108,8 +98,8 @@ void importData(hashnode **hashTable, int M){
 		printf("Renomear arquivo para casos_de_teste.txt\n");
 		return;
 	}
-	char line[256];//Tamanho da linha
-	while(fgets(line,256,text)){// Lê os 256 chars da linha
+	char line[25];//Tamanho da linha
+	while(fgets(line,25,text)){// Lê os 25 chars da linha
 		char *item = strtok(line, ";");// Separa os números por; (token)
 		while(item != NULL){
 			int valor;	
@@ -124,13 +114,12 @@ void importData(hashnode **hashTable, int M){
 Função Main			 *
 				 */
 int main(){
-	int M = 23; //Tamanho da tabela Hash
+	int M = 25; //Tamanho da tabela Hash
 		    //Não foi usado como atributo de hashTable
 		    //pois é um valor fixado no problema
 	hashnode *hashTable[M]; 
 	initHashTable(hashTable, M);
 	importData(hashTable, M);
-	printTable(hashTable, M);
 	freeMemory(hashTable, M);
 	return 0;
 }
